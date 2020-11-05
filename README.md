@@ -1,8 +1,8 @@
 # Repository-1
 
-Sample Website1: https://sky107.github.io/SampleWebsite01/
+Sample Website1(Design): https://sky107.github.io/SampleWebsite01/
 
-Sample Website2: https://sky107.github.io/SamplePage02/ 
+Sample Website2(Desing): https://sky107.github.io/SamplePage02/ 
 
 Login form (Design) :  https://legitimatedetailedinterfacestandard--five-nine.repl.co/
 
