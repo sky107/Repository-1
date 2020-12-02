@@ -6,7 +6,7 @@
 
 **Login form**: https://legitimatedetailedinterfacestandard--five-nine.repl.co/
 
-#**Live Editor for HTML,CSS & JS Practice**: web-editor-sky.surge.sh
+#**Live Editor for HTML,CSS & JS Practice**: https://web-editor-sky.surge.sh
 
 #**Currency Conversion using API and AJAX**: https://proudplainhertz--five-nine.repl.co
 
