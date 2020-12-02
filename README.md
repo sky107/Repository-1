@@ -4,8 +4,6 @@
 
 **Sample Website2**: https://sky107.github.io/SamplePage02/ 
 
-**Login form**: https://legitimatedetailedinterfacestandard--five-nine.repl.co/
-
 #**Live Editor for HTML,CSS & JS Practice**: https://web-editor-sky.surge.sh 
 
 #**Currency Conversion using API and AJAX**: https://proudplainhertz--five-nine.repl.co
@@ -17,6 +15,8 @@
 **Queryform using PHP and SQL to store data in db**: https://sky107.github.io/testform/
 
 **Using unspalsh API to fetch images** : https://sky107.github.io/Data-Fetch-Unsplash-API-JS-/
+
+**Login form Design**: https://legitimatedetailedinterfacestandard--five-nine.repl.co/
 
 **Clockworks(Timer using JS)**: https://plainusableprinter--five-nine.repl.co | Code: https://github.com/sky107/clockworks
  
