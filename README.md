@@ -8,8 +8,6 @@
 
 #**Live Editor for HTML,CSS & JS Practice**: https://web-editor-sky.surge.sh 
 
-Code: https://github.com/sky107/web-editor-1.0
-
 #**Currency Conversion using API and AJAX**: https://proudplainhertz--five-nine.repl.co
 
 **Random Password Generator using Javascript**: https://sky107.github.io/Random-Password-Generator-Javascript-/
