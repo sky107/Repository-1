@@ -18,6 +18,6 @@
 
 **Login form Design**: https://legitimatedetailedinterfacestandard--five-nine.repl.co/
 
-#**Clockworks(Timer using JS)**: https://plainusableprinter--five-nine.repl.co |Code: https://github.com/sky107/clockworks
+#**Clockworks(Timer using JS)**:https://plainusableprinter--five-nine.repl.co |Code: https://github.com/sky107/clockworks
  
 
