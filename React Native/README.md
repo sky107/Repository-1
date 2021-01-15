@@ -23,4 +23,7 @@ Switches and ActivityIndicator
 
 
 ------------------------------------
-[a link](google.co.in)
+Creating a basic profile page 
+
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/62d30cb18bb76723dbd706ea0cb1616e1610737214.jpeg){height=50 width=60}
+
