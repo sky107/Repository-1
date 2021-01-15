@@ -23,7 +23,3 @@ Switches and ActivityIndicator
 
 
 ------------------------------------
-
-
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/56c83a876043ce353de5b49a819b76191610736737.jpeg | width=50)
-
