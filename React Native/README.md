@@ -1,4 +1,4 @@
-I selected React Native because of its capability to develop mobile applications for both Android & IOS simuntaneously using single language Javascript. Can also be extended to build Android TV and Apple TV applications. Its one of the most demanded technology.
+I selected React Native because of its capability to develop mobile applications for both Android & IOS simuntaneously using single language Javascript but not restricted to. Its one of the most demanded technology.
 
 Top Apps built on React Native 
 
