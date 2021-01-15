@@ -1,1 +1,1 @@
-Better to code commonsense
+Better to code small things
