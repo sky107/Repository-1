@@ -1,1 +1,1 @@
-
+Better to code commonsense
