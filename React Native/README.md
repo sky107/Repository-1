@@ -2,7 +2,7 @@ I selected React Native because of its capability to develop mobile applications
 
 Top Apps built on React Native 
 
-Instagram | Walmart | UberEats | Skype | Myntra| Salesforce | Tesla| Bloomberg | Discord
+Instagram | Walmart | UberEats | Skype | Myntra | Salesforce | Tesla | Bloomberg | Discord
 
 
 --------------------------------------------------------------
