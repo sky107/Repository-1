@@ -7,6 +7,8 @@ FrontEnd : React-native, React-native paper
 
 BackEnd : NodeJS, MYSQL 
 
+*Particularly built for ios
+
 
 ------------------------------------------------------------------------------
 
