@@ -1,5 +1,5 @@
 
-Instogram
+Instogram | Under Development
 ---------------------
 This project is regarding establishing a login system for a mobile app focusing on connecting react-native to database to retrive or insert data.
 
