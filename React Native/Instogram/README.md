@@ -1,5 +1,5 @@
 
-Instogram | Under Development
+Instogram | Under Development for IOS Platform
 ---------------------
 This project is regarding establishing a login system for a mobile app focusing on connecting react-native to database to retrive or insert data.
 
@@ -7,7 +7,7 @@ FrontEnd : React-native, React-native paper
 
 BackEnd : NodeJS, MYSQL 
 
-*Particularly built for ios
+
 
 
 ------------------------------------------------------------------------------
