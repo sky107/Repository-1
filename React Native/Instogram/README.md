@@ -5,7 +5,7 @@ This project is regarding establishing a login system for a mobile app focusing 
 
 FrontEnd : React-native, React-native paper
 
-BackEnd : NodeJS, MYSQL 
+BackEnd : NodeJS, MYSQL ,Express
 
 
 
