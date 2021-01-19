@@ -1,6 +1,6 @@
 React PageDesigns
 ----------
-[Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/)
+[Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/){:target="_blank"}
 
 
 
