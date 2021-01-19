@@ -31,3 +31,5 @@ Static Version
  
 --------------------------------------
 NodeJS Backend for retreiving sql query results in JSON Format Under Development
+
+Logic: In main Login Screen : Send email and password to NodeJS Server->If found entry in sql database then insert into log and forward to Home Screen else Alert user not found
