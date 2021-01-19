@@ -1,7 +1,3 @@
-React PageDesigns
-----------
-[Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/)
-
 
 
 
@@ -23,6 +19,15 @@ The working link of the project is given below
 http://siddharth-react-livesearch.surge.sh
 
 -----------------------------------------------------------------------
+
+
+React PageDesigns
+----------
+[Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/)
+
+----------------------------
+
+
 BookStore
 --------------
 
