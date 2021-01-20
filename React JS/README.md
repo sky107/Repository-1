@@ -14,7 +14,7 @@ Features:
 Spoiler :D
 
 ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png)
-
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6f64981b85102bc93963f1525d912cfe1611164602.png)
 
 
 
