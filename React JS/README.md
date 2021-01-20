@@ -43,7 +43,7 @@ React PageDesigns
 ----------------------------
 
 
-BookStore
+BookStore [under development]
 --------------
 
 Develop a pseudo-Front End application which let the user browse,search and buy books conventionally , where data should be stored and indexed locally.
