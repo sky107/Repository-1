@@ -2,7 +2,7 @@ React TestPortal
 ----------------
 [under development]
 
-This project aims a providing a test portal for shorlisting the candidates for primarily internship puropse. This will help organisation to stand out from the crowd and make small good impression on candidate to work for a reputated organisation .
+This project aims a providing a test portal for shortlisting the candidates for primarily internship purpose. This will help organisation to stand out from the crowd and make small good impression on candidate to work for a reputated organisation .
 
 Tech Stacks : ReactJS | MongoDB | NodeJS |Express
 
@@ -10,6 +10,8 @@ Features:
 1) Credential Screen 
 2) Examination Screen
 3) Successful  Screen
+
+Spoiler :D
 
 ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png)
 
