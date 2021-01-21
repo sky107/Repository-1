@@ -25,6 +25,18 @@ Static Version
 
 ![at text](http://res.cloudinary.com/df2q7cryi/image/upload/8e6ccef2ca69c880b95d79c9f44dc88a1611225169.png)
 
+--------------------------------------
+NodeJS Backend for retreiving sql query results in JSON Format
+
+Logic: In main Login Screen : Send email and password to NodeJS Server->If found entry in sql database then insert into log and forward to Home Screen else Alert user not found
+
+Logic : User Registration Screen: Check data in db if found show alerady exists else Succesfully add
+
+API for user login check  and user registration fully working condition sever.js
+
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/bfe1e4b990cf3fca6ffad890393dddf91611045980.png)
+
+
 
 --------------------------------------------------
  Dynamic History page with live search that shows logs of logins on the mobile application connected to mysql database coded in php
@@ -34,13 +46,4 @@ Static Version
  ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6553a65e4356d6875132df9058e551c31610903270.png)
  
  
---------------------------------------
-NodeJS Backend for retreiving sql query results in JSON Format Under Development
 
-Logic: In main Login Screen : Send email and password to NodeJS Server->If found entry in sql database then insert into log and forward to Home Screen else Alert user not found
-
-Logic : User Registration Screen: Check data in db if found show alerady exists else Succesfully add
-
-API for user login check  and user registration fully working condition sever.js
-
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/bfe1e4b990cf3fca6ffad890393dddf91611045980.png)
