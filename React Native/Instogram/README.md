@@ -46,4 +46,5 @@ API for user login check  and user registration fully working condition sever.js
  ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6553a65e4356d6875132df9058e551c31610903270.png)
  
  
-
+---------------------------------------------
+Note: Front End Ready , Backend Ready now to retrive data/send data axios/fetch/HTTPWebdsocket use is left . Getting Network Error , I asked in community they said cors error I removed cors still network error working maybe I nerd to host the api as maybe 'localhost' does not recognize. I tested the api on REACTJS Single page application its working fine but on react native Network Error. Once I get this I'll upload the link for fully active app on iOS Emulator
