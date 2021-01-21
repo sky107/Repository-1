@@ -21,13 +21,13 @@ WebPageClones using pure HTML, CSS and JS
 
 ------------------------------
 
-[**Currency Conversion using API and AJAX**](https://proudplainhertz--five-nine.repl.co)
+[**Currency Conversion using API and AJAX PHP**](https://proudplainhertz--five-nine.repl.co) 
 
 [**Live Editor for HTML,CSS & JS Practice**](https://web-editor-sky.surge.sh)
 
 [**Random Password Generator using Javascript**](https://sky107.github.io/Random-Password-Generator-Javascript-/)
 
-[**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)
+[**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)(Pure HTML,CSS and JS)
 
 [**Clockworks (Timer using JS)**](https://plainusableprinter--five-nine.repl.co)
  
