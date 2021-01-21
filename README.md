@@ -27,7 +27,7 @@ WebPageClones using pure HTML, CSS and JS
 
 [**Random Password Generator using Javascript**](https://sky107.github.io/Random-Password-Generator-Javascript-/)
 
-[**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)(Pure HTML,CSS and JS)
+[**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)
 
 [**Clockworks (Timer using JS)**](https://plainusableprinter--five-nine.repl.co)
  
