@@ -1,5 +1,5 @@
 
-Instogram | for iOS Platform
+Instogram | iOS Platform
 ---------------------
 This project is regarding establishing a login system for a mobile app focusing on connecting react-native-app to database to retrive or insert data.
 
