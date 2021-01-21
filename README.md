@@ -20,6 +20,6 @@ WebPageClones
 
 [**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)
 
-[**Clockworks (Timer using JS)**](https://plainusableprinter--five-nine.repl.co 
+[**Clockworks (Timer using JS)**](https://plainusableprinter--five-nine.repl.co)
  
 
