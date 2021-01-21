@@ -12,7 +12,7 @@ WebPageClones
 
 ------------------------------
 
-[**Currency Conversion using API and AJAX](https://proudplainhertz--five-nine.repl.co)
+[**Currency Conversion using API and AJAX**](https://proudplainhertz--five-nine.repl.co)
 
 [**Live Editor for HTML,CSS & JS Practice**](https://web-editor-sky.surge.sh)
 
@@ -20,6 +20,6 @@ WebPageClones
 
 [**Login form Design**](https://legitimatedetailedinterfacestandard--five-nine.repl.co)
 
-[**Clockworks(Timer using JS)**](https://plainusableprinter--five-nine.repl.co |Code: https://github.com/sky107/clockworks)
+[**Clockworks (Timer using JS)**](https://plainusableprinter--five-nine.repl.co 
  
 
