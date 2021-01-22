@@ -1,7 +1,7 @@
 
 Instogram | iOS Platform
 ---------------------
-Use this link to emulate on iOS | https://cutt.ly/HjGr3R7
+Use this link to emulate on iOS | https://cutt.ly/HjGr3R7 | Click on iPhone Screen continously to load screen
 
 
 This project is regarding establishing a login system for a mobile app focusing on connecting react-native-app to database to retrive or insert data.
