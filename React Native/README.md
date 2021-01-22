@@ -11,7 +11,7 @@ Better to code small things
 -------------
 
 
-![Connecting with Firebase to add/show items]()
+![Connecting with Firebase to add/show items](https://controlc.com/aebce9ba)
 ![alt text](https://user-images.githubusercontent.com/69970001/105536236-06d1ab80-5d16-11eb-8d20-d674e4791b1b.png)
 
 
