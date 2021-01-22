@@ -12,8 +12,7 @@ Better to code small things
 
 
 ![Connecting with Firebase to add/show items]()
-![alt text](https://user-images.githubusercontent.com/69970001/105535956-99257f80-5d15-11eb-937a-b7cb53281b02.png)
-
+![alt text](https://user-images.githubusercontent.com/69970001/105536236-06d1ab80-5d16-11eb-8d20-d674e4791b1b.png)
 
 
 Alert Prompts and Buttons 
