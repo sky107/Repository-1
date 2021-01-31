@@ -8,7 +8,7 @@
 WebPageClones 
 
 
-[**SampleWebpage1**}(http://siddharth-responsive-webpage.surge.sh/)
+[**SampleWebpage1**](http://siddharth-responsive-webpage.surge.sh/)
 
 [**SampleWebpage2**](https://sky107.github.io/SampleWebsite01/)
 
