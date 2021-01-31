@@ -5,12 +5,15 @@
 
 
 -------------------------
-WebPageClones using pure HTML, CSS and JS
-
-[**SampleWebpage1**](https://sky107.github.io/SampleWebsite01/)
+WebPageClones 
 
 
-[**SampleWebpage2**](https://sky107.github.io/SamplePage02/) 
+[**SampleWebpage1**}(http://siddharth-responsive-webpage.surge.sh/)
+
+[**SampleWebpage2**](https://sky107.github.io/SampleWebsite01/)
+
+
+[**SampleWebpage3**](https://sky107.github.io/SamplePage02/) 
 
 
 ------------------------------
