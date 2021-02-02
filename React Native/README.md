@@ -15,14 +15,11 @@ Better to code small things
 ![alt text](https://user-images.githubusercontent.com/69970001/105536236-06d1ab80-5d16-11eb-8d20-d674e4791b1b.png)
 
 
+---------------------------------------------
+
 Alert Prompts and Buttons 
 ![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/210af64b6de1845d45f7f728523fa1f41610710796.png)
 
-------------------------------------------------------------------------------------------------------------
-AndroidToasts, ScrollViews, Refreshloads,NumericTextInput  [Video Demo](https://res.cloudinary.com/df2q7cryi/video/upload/v1612282045/WhatsApp_Video_2021-02-02_at_9.10.20_PM_wyf8kl.mp4)
-
-
-![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1612282466/ReactNativeSiddharthKumarYadav_avniuh.png)
 
 
 --------------------------------------------------------
@@ -34,6 +31,16 @@ Dummy Login System implementing TextInput
 ------------------------------------------------------------------------------------------------------------
 Switches and ActivityIndicator
 ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/d0ae05bb22368467b5e6b3b45b98fa951610715564.png)
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+AndroidToasts, ScrollViews, RefreshControls,NumericTextInput  [Live Video Here](https://res.cloudinary.com/df2q7cryi/video/upload/v1612282045/WhatsApp_Video_2021-02-02_at_9.10.20_PM_wyf8kl.mp4)
+
+
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1612282466/ReactNativeSiddharthKumarYadav_avniuh.png)
+
 
 
 ------------------------------------
