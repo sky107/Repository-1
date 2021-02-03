@@ -9,8 +9,8 @@ APK FILE DOWNLOAD LINK : https://exp-shell-app-assets.s3.us-west-1.amazonaws.com
 [Video Demonstration of APK HERE](https://res.cloudinary.com/df2q7cryi/video/upload/v1612353551/20210203_171557.mp4_mxxlf1.mp4)
 
 ----------------------------------------------
-![alt text]('https://res.cloudinary.com/df2q7cryi/image/upload/v1612355032/playon1_j501bw.png')
-![alt text]('https://res.cloudinary.com/df2q7cryi/image/upload/v1612355033/playon2_vme5fx.png')
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1612355032/playon1_j501bw.png)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1612355033/playon2_vme5fx.png)
 
 
 
