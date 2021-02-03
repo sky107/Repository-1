@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "reactnative-assignment1",
+    "slug": "snack-4e1568e4-7525-4f4c-9608-40930af73430",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/flower.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.sigma7.snack4e1568e475254f4c960840930af73430"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
