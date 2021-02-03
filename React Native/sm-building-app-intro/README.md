@@ -1,11 +1,5 @@
-# Sample Snack app
+This application is build with Expo to demostrate App introduction animation and fetching data from API End point
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+APK FILE DOWNLOAD LINK : https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40sigma7/snack-4e1568e4-7525-4f4c-9608-40930af73430-e5dba378700c4ba08cb9ecaee80f1f2a-signed.apk
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+[Live Video of APK HERE]('https://res.cloudinary.com/df2q7cryi/video/upload/v1612353551/20210203_171557.mp4_mxxlf1.mp4')
