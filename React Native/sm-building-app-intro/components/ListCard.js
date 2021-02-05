@@ -8,7 +8,7 @@ const cardcss={
   margin:'5%'
 }
 const daysarr=[]
-const image = { uri: "https://playonn.s3.ap-south-1.amazonaws.com/basketball_gray.png" };
+//const image = { uri: "https://playonn.s3.ap-south-1.amazonaws.com/basketball_gray.png" };
 const ListCard = (props) => {
 
 
