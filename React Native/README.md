@@ -1,4 +1,4 @@
-I selected React Native because of its capability to develop mobile applications for both Android & IOS simuntaneously using single language Javascript but not restricted to. Its one of the most demanded technology.
+Selected React Native because of its capability to develop mobile applications for both Android & IOS simuntaneously using single language Javascript but not restricted to. Its one of the most demanded technology.
 
 Top Apps built on React Native 
 
@@ -11,9 +11,16 @@ Better to code small things
 -------------
 
 
+
+
 [Connection with Firebase RealTime Database](https://controlc.com/aebce9ba)
 ![alt text](https://user-images.githubusercontent.com/69970001/105536236-06d1ab80-5d16-11eb-8d20-d674e4791b1b.png)
 
+
+---------------------------------------
+[FlatList Demonstration using API](https://controlc.com/709f7766) 
+
+![image](https://user-images.githubusercontent.com/69970001/107220690-a8f0d380-6a38-11eb-8fbf-50c7dde27008.png)
 
 ---------------------------------------------
 
