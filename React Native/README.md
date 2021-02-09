@@ -21,7 +21,7 @@ Better to code small things
 [FlatList Demonstration](https://controlc.com/07fbf0ed/fullscreen.php?hash=36530ce5094b4a214159977a6afac4ad&toolbar=true&linenum=false) <-Source Code Here
 
 
-[iOS Demonstration](https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@snack%2F9u58POJ5L%2BgHsBO8ObyK%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=13.7)  <-Click on iPhone screen continously until it loads 
+[iOS](https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@snack%2F9u58POJ5L%2BgHsBO8ObyK%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=13.7)  <-Click on iPhone Screen | Video Demonstration-> [Android](https://res.cloudinary.com/df2q7cryi/video/upload/v1612912447/WhatsApp_Video_2021-02-10_at_4.41.56_AM_chvnba.mp4)
 
 ![image](https://user-images.githubusercontent.com/69970001/107220690-a8f0d380-6a38-11eb-8fbf-50c7dde27008.png)
 
