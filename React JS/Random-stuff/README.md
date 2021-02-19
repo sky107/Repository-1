@@ -1,4 +1,5 @@
-Assignment-1 : conditionals, props,state management in class based componet | [Solution](https://react-wr88pt.stackblitz.io/)
+Assignment-1 : conditionals, props,state management in class based componet |  [Solution Live](https://react-wr88pt.stackblitz.io/)
+
 
 1. Create a input field with a change listener which output the length of the entered text
 
