@@ -1,6 +1,4 @@
-State Management using Redux to get insights of Reducers, store, dispatching , action type,react-redux and  connect hoc . Please visit code
-
-
+State Management using Redux to get insights of Reducers, store, dispatching , action type,react-redux and  connect hoc . 
 
 [Live](https://siddharth-react-redux-first-implementation.surge.sh)
 
