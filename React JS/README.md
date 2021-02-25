@@ -1,26 +1,4 @@
-React TestPortal 
-----------------
-[under development]
 
-This project aims a providing a test portal for shortlisting the candidates for primarily internship purpose. This will help organisation to stand out from the crowd and make small good impression on candidate to work for a reputated organisation .
-
-Tech Stacks : ReactJS | MongoDB | NodeJS |Express
-
-Features:
-1) Credential Screen 
-2) Examination Screen
-3) Successful  Screen
-
-Spoiler :D
-
-
-
-Developing Backend..
-
-
-
-
------------------------------
 React Live Search 
 -----------
 This project retrives data from Pixabay API the code is written in class based components and managing of variables using states .The use of loader and managing its visibiltiy using variables is also exhibited. Important axios Cancel token feature to optimize the application during data fetch is also used . Pagination in this results is under development and soon be updated .
