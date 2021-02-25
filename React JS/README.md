@@ -13,10 +13,6 @@ Features:
 
 Spoiler :D
 
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png)
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6f64981b85102bc93963f1525d912cfe1611164602.png)
-
-
 
 
 Developing Backend..
@@ -40,6 +36,12 @@ React PageDesigns
 ----------
 [Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/)
 ![image](https://user-images.githubusercontent.com/69970001/106364633-62271d80-6356-11eb-924b-2dbaae089de1.png)
+
+
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png)
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6f64981b85102bc93963f1525d912cfe1611164602.png)
+
+
 
 
 ----------------------------
