@@ -5,9 +5,7 @@ import {Button} from 'antd';
 import React, {Component} from 'react';
 
 import logo from './logo.svg';
-import Buttonx from './MaterialUI';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-// lowercase are reserved by EJX
 class App extends Component {
 
   render() {
