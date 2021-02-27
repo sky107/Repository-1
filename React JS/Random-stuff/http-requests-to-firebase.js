@@ -3,6 +3,8 @@ Coded by Siddharth Kumar Yadav
 This is a part of project where
 essentially this much code demonstrate 
 the fetching of data and posting from firebse
+Conecept: In FC, to prevent infinite loop of network requests
+we use useEffect with second argument , In class based we use ComponentDidMount
 */
 
 
