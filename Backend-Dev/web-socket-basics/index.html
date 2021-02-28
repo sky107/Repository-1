@@ -1,0 +1,19 @@
+
+<script>
+const ws=new WebSocket('ws://localhost:4545');
+ws.addEventListener("open",()=>{
+console.log("we are connected");
+
+
+ws.send(JSON.stringify({
+x:32,
+y:34,
+z:3232
+}));
+});
+
+ws.addEventListener("message",e=>{
+console.log(e.data);
+});
+
+</script>
