@@ -7,7 +7,7 @@ Instagram | Walmart | UberEats | Skype | Myntra | Salesforce | Tesla | Bloomberg
 
 --------------------------------------------------------------
 
-Better to code small things
+
 -------------
 
 
