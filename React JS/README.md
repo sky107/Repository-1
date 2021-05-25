@@ -16,7 +16,7 @@ Responsive | Error and warning free
 [Dashboard Page](https://siddharth-react-reacruitment-platform.netlify.app/users/dashboard)
 ![image](https://user-images.githubusercontent.com/69970001/119549131-8cdd2c00-bdb4-11eb-92fb-4f65c5b6743a.png)
 
-[Cards](https://siddharth-react-reacruitment-platform.netlify.app/users/jobs)
+[Jobs Page ](https://siddharth-react-reacruitment-platform.netlify.app/users/jobs)
 ![image](https://user-images.githubusercontent.com/69970001/119549410-cd3caa00-bdb4-11eb-99a3-b6cf846bbf19.png)
 
 
@@ -24,8 +24,8 @@ Responsive | Error and warning free
 ![image](https://user-images.githubusercontent.com/69970001/106364633-62271d80-6356-11eb-924b-2dbaae089de1.png)
 
 
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png)
-![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6f64981b85102bc93963f1525d912cfe1611164602.png)
+<!-- ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/0103a00e23a98c441ec71f76d3a4e9ad1611151831.png) -->
+<!-- ![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/6f64981b85102bc93963f1525d912cfe1611164602.png) -->
 
 
 
