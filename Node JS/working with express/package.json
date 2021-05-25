@@ -1,0 +1,18 @@
+{
+  "name": "working-with-express",
+  "version": "1.0.0",
+  "description": "Trying to understand the concept of middleware and routes for performant nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Kumar Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
