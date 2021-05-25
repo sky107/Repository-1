@@ -1,0 +1,11 @@
+{
+  "name": "spinning-server-first-time",
+  "version": "1.0.0",
+  "description": "\"Trying to spin the server code without express\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Kumar Yadav",
+  "license": "ISC"
+}
