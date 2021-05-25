@@ -4,7 +4,8 @@
   "description": "Trying to understand the concept of middleware and routes for performant nodejs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start" :"nodemon server.js"
   },
   "author": "Siddharth Kumar Yadav",
   "license": "ISC",
