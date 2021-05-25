@@ -12,6 +12,14 @@ http://siddharth-react-livesearch.surge.sh
 
 React PageDesigns
 ----------
+Responsive | Error and warning free
+[Dashboard Page](https://siddharth-react-reacruitment-platform.netlify.app/users/dashboard)
+![image](https://user-images.githubusercontent.com/69970001/119549131-8cdd2c00-bdb4-11eb-92fb-4f65c5b6743a.png)
+
+[Cards](https://siddharth-react-reacruitment-platform.netlify.app/users/jobs)
+![image](https://user-images.githubusercontent.com/69970001/119549410-cd3caa00-bdb4-11eb-99a3-b6cf846bbf19.png)
+
+
 [Job Seaker Application form](https://react-25cezm7sdf.stackblitz.io/)
 ![image](https://user-images.githubusercontent.com/69970001/106364633-62271d80-6356-11eb-924b-2dbaae089de1.png)
 
