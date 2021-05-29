@@ -17,17 +17,20 @@ Basically , when we develop a react application so we use say, react-scripts tha
 	
 Deployment  (Best Practices)
 ----------- 
--> Use .env files
+-> Use .env files | we can configure env variable before 'node app.js' command type file with modified scripts
 
 -> Reduce error output details to the client
 
--> Set secure response headers
+-> Set secure response headers | Ex using helmet -> app.use(helmet())  | add addtional headers for secruity
 
--> Add assets compression
+-> Add assets compression | Ex using compression -> app.use(compression()) | reduce the css and other chunks of files 
 
--> configre logging
+-> configre logging | Ex using morgan -> app.use(morgan()) | logs error in realtime , we can configure to write in filestream
 
--> use SSL/TlS
+-> use SSL/TLS | we can generate public and private key to produce a certificate on port of server within few minutes using https pkg , but browser should recognize is valid as vertificate from other authorities (trusted) will run without warning.
+
+
+Note to depolyment in Heroku-> If we are storing some data on server heroku restarts /sleeps hence entire code get re exectued in FREETIER , hence data does not  persists so use third party like AWS S3 , etc . In case of own server IP virtual machine ,no issue.
 	
 	
 MVC
