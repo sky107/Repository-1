@@ -1,5 +1,25 @@
 
-What is mongoose?
+MVC
+----------
+MVC is a pattern to develop a web application mainly backend which structures the code into folder and functionaliy for efficient management and development during writing code. We should be clearly able to identify the  function and frontend separately
+
+Models : are object responsible for represting data and working like fetching, saving, etc. Doesn't matter if you manage dta in memory,files , db. Contains data-related logics
+
+Views : what user sees in the frontend. Shouldn't contain too much logic.
+
+Controllers : connecting point of Views(Frontend) and Models (logics). Connects Model and View. should only make sure that the two can communicate (in both direction)
+
+
+
+
+
+
+
+-----------------------------
+
+
+Mongoose
+----
 
 
 
