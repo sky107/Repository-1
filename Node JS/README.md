@@ -15,7 +15,7 @@ Example :
 	
 Basically , when we develop a react application so we use say, react-scripts that is also written in  nodejs which compiler the modern ReactJS code to miniifed optimised browser executable code by trasnforming using webpacks & other packages and npm acts a build tool also.
 	
-Preparing the code for production (Best Practices)
+Deployment  (Best Practices)
 ----------- 
 -> Use .env files
 
