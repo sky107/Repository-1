@@ -2,7 +2,7 @@
 SQL vs NoSQL Databases
 ----------------------
 
-SQL stands fro Structured query language , as the name suggest its schema  based well structured data in form of tables to retrive data we use comands say, 'SLEECT * FROM <tablename> WHERe marks < 50' . So this will fetch all recordds form table where mark field is lesser than 50. So when we query from multiple table simuntanelously we join the commands and execute it . It can be expensive
+SQL stands fro Structured query language , as the name suggest its schema  based well structured data in form of tables to retrive data we use comands say, 'SELECT * FROM <tablename> WHERE marks < 50' . So this will fetch all recordds form table where mark field is lesser than 50. So when we query from multiple table simuntanelously we join the commands and execute it . It can be expensive
 
 
 
