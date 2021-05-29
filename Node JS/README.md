@@ -1,3 +1,4 @@
+
 npm and Node as a build tool
 -----
 npm is a cli ,  to install & manage the function/algorithm that are isolated and ready to use for dev, called packages 
@@ -14,7 +15,19 @@ Example :
 	
 Basically , when we develop a react application so we use say, react-scripts that is also written in  nodejs which compiler the modern ReactJS code to miniifed optimised browser executable code by trasnforming using webpacks & other packages and npm acts a build tool also.
 	
-	
+Preparing the code for production (Best Practices)
+----------- :
+Use .env files
+
+Reduce error output details to the client
+
+Set secure response headers
+
+Add assets compression
+
+configre logging
+
+use SSL/TlS
 	
 	
 MVC
