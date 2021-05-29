@@ -1,4 +1,13 @@
-
+npm and Node as a build tool
+-----
+npm is a cli ,  to install & manage the function/algorithm that are isolated and ready to use for dev, called packages 
+Example : To install a specific version use | npm install <name>@<version> | Ex:express
+	  To install development dependency | npm instlall <name> --save-dev | Ex:nodemon 
+Basically , when we develop a react application so we use say, react-scripts that is also written in  nodejs which compiler the modern ReactJS code to miniifed optimised browser executable code by trasnforming using webpacks & other packages and npm acts a build tool also.
+	
+	
+	
+	
 MVC
 ----------
 MVC is a pattern to develop a web application mainly backend which structures the code into folder and functionaliy for efficient management and development during writing code. We should be clearly able to identify the  function and frontend separately
