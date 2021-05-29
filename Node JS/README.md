@@ -3,7 +3,9 @@ npm and Node as a build tool
 npm is a cli ,  to install & manage the function/algorithm that are isolated and ready to use for dev, called packages 
 
 
-Example : To install a specific version use | npm install <<name>>@<<version>> | Ex:express
+Example :
+
+	  To install a specific version use | npm install <<name>>@<<version>> | Ex:express
 	
 	
 	  To install development dependency | npm instlall <<name>> --save-dev | Ex:nodemon 
