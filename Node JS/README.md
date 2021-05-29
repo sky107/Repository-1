@@ -16,18 +16,18 @@ Example :
 Basically , when we develop a react application so we use say, react-scripts that is also written in  nodejs which compiler the modern ReactJS code to miniifed optimised browser executable code by trasnforming using webpacks & other packages and npm acts a build tool also.
 	
 Preparing the code for production (Best Practices)
------------ :
-Use .env files
+----------- 
+# Use .env files
 
-Reduce error output details to the client
+# Reduce error output details to the client
 
-Set secure response headers
+# Set secure response headers
 
-Add assets compression
+# Add assets compression
 
-configre logging
+# configre logging
 
-use SSL/TlS
+# use SSL/TlS
 	
 	
 MVC
