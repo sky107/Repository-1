@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+  overflow-x:hidden;
+}
+
+header{
+background:dodgerblue;
+padding:10px;
+}
+
+header h1{
+color:white;
+max-width:1200px;
+margin: 0 auto;
+}
+
+h2{
+padding-bottom:10px;
+border-bottom:1px solid #eee;
+}
+
+.content{
+width:100%;
+max-width:1200px;
+margin:0 auto;
+padding:20px;
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:100px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dodgerblue; 
+opacity:0.6;
+padding:20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
