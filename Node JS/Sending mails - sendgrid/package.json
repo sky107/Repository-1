@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  },
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siddharth",
+  "license": "ISC",
+  "description": ""
+}
