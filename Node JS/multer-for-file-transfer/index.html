@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demostrating Multer</title>
+</head>
+<body>
+<form method="POST" action="/save" 	 enctype="multipart/form-data">
+
+<table>
+<tr>
+	<td>Name</td>
+	<td><input type="text" name="name"/></td>
+</tr>
+<tr>
+	<td>Resume</td>
+	<td><input for ="resume" type="file" name="resume"/></td>
+</tr>
+
+
+</table>
+<button type="submit">SEND</button>
+
+</form>
+
+
+
+<form action="/save" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
