@@ -9,7 +9,7 @@ assign it to a const variable and your jwt is ready
 
 
 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐉𝐖𝐓 𝐚𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧 ?
- JSON Web Token (JWT) is authentication mechanism which acts as a claim between server and client to exchange information.
+JSON Web Token (JWT) is authentication mechanism which acts as a claim between server and client to exchange information.
 
 𝐖𝐡𝐲 𝐉𝐖𝐓 𝐚𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐧𝐞𝐞𝐝𝐞𝐝 ?
 There are mainly to ways by which server can identify client and process request.
