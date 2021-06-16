@@ -1,4 +1,10 @@
-Hey all , Push notifications using google cloud messaging is demonstrated here | [**Video**](https://res.cloudinary.com/df2q7cryi/video/upload/v1621796517/20210523_184915.mp4_vs78vm.mp4)
+Hey all , Push notifications using google cloud messaging
+
+
+
+<!-- [**Video**](https://res.cloudinary.com/df2q7cryi/video/upload/v1621796517/20210523_184915.mp4_vs78vm.mp4) -->
+
+
 
 I have created a node server.js which makes connection with firebase using sdk provided in official docs to send notification title and body entered through cli and send push_notifications using FCM Token
 
