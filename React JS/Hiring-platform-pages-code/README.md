@@ -4,7 +4,7 @@
 
 [Login Page](https://siddharth-hiring-platform.netlify.app)
 ![image](https://user-images.githubusercontent.com/69970001/122652934-294de080-d15f-11eb-9d19-4491d0ddfa54.png)
-![image](https://user-images.githubusercontent.com/69970001/122652950-35d23900-d15f-11eb-9f06-0c23d7e80a83.png)
+![image](https://user-images.githubusercontent.com/69970001/122653023-96fa0c80-d15f-11eb-8263-f0e8d76f58cc.png)
 
 
 [Jobs Page ](https://siddharth-hiring-platform.netlify.app/users/jobs)
