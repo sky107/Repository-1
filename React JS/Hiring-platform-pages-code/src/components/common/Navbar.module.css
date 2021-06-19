@@ -1,0 +1,105 @@
+.main{
+
+display:flex;
+height:50px;
+justify-content:space-between;
+border-bottom:solid 1px #ece;
+
+}
+.main-tools{
+display:flex;
+}
+
+.more-tool{
+	oultline:none;
+	border:none;
+	width:fit-content;
+}
+
+.main-tools-item{
+padding-top:15px;
+padding-left:16px;
+padding-right:16px;
+font-weight:600;
+color:grey;
+}
+.main-tools-item:hover{
+cursor:pointer;
+color:red;
+}
+
+.main-tools-item-dashboard{
+
+padding-top:15px;
+padding-left:16px;
+padding-right:16px;
+color:grey;
+font-weight:600;
+}
+.main-tools-item-dashboard:hover{
+cursor:pointer;
+color:red;
+}
+
+.company-logo{
+	
+	display: flex;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.company-logo-image{
+	padding-top:5px;
+	padding-left:5px;
+width:100px;
+height:20px;
+}
+.hamburger_menu_key{
+	height:30px;
+	width:20px;
+}
+.hamburger_menu_key:hover{
+cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  cursor: pointer;
+	
+  display: none;
+  /*margin-top:10px;*/
+  /*border-radius:5px;*/
+  /*		border-top:solid 5px transparent;*/
+  /*border-top-style:hidden		;*/
+ right:10px;
+  position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 4px 1px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+ padding-top:20px;
+  z-index: 2000;
+  color:grey;
+}
+
+.main-tools-item-more{
+	padding-top:15px;
+padding-left:16px;
+padding-right:16px;
+font-weight:600;
+color:grey;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color:black;
+}
+@media only screen and (max-width:600px){
+  .main-tools-item-dashboard{
+    display:none;
+  }
+}

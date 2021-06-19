@@ -1,0 +1,13 @@
+.main{
+outline:none;
+background-color:white;
+border:solid 1px #ccc;
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+border-radius:3px;
+font-weight:600;
+}
+.main:focus{
+background-color:#eee;
+}

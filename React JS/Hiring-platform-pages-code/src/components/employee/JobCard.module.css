@@ -1,0 +1,19 @@
+.job-card{
+	/*flex-grow: 1;*/
+	user-select: none;
+	font-size:10px;
+	border:solid 2px #eee;
+	border-radius: 5px;
+	background: #f7f7f7;
+	/*display:flex;*/
+	margin:10px;
+	padding:10px;
+	margin-right:0px;
+	margin-bottom:5px;
+	min-height:120px;
+	min-width: 30%;
+	cursor: 	pointer;
+}
+.job-card:hover{
+	background:#eee;
+}
