@@ -1,6 +1,12 @@
 [Dashboard Page](https://siddharth-hiring-platform.netlify.app/users/dashboard)
 ![image](https://user-images.githubusercontent.com/69970001/119549131-8cdd2c00-bdb4-11eb-92fb-4f65c5b6743a.png)
 
+
+[Login Page](https://siddharth-hiring-platform.netlify.app)
+![image](https://user-images.githubusercontent.com/69970001/122652934-294de080-d15f-11eb-9d19-4491d0ddfa54.png)
+![image](https://user-images.githubusercontent.com/69970001/122652950-35d23900-d15f-11eb-9f06-0c23d7e80a83.png)
+
+
 [Jobs Page ](https://siddharth-hiring-platform.netlify.app/users/jobs)
 ![image](https://user-images.githubusercontent.com/69970001/119549410-cd3caa00-bdb4-11eb-99a3-b6cf846bbf19.png)
 
