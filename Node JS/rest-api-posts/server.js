@@ -6,6 +6,7 @@ const helmet=require('helmet');
 const bodyParser=require('body-parser');
 const swaggerJsDoc=require('swagger-jsdoc');
 const swaggerUi=require('swagger-ui-express');
+const authRoutes=require('./routes/authRoutes');
 const app=express();
 
 const PORT=process.env.PORT || 5000;
@@ -37,38 +38,42 @@ const swaggerOptions = {
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-// Routes
-/**
- * @swagger
- * /:
- *  get:
- *    description: Use to request all customers
- *    responses:
- *      '200':
- *        description: A successful response
- */
-app.get('/',(req,res,next)=>{
-res.send('Hello');
-});
-
-
 
 
 /**
  * @swagger
- * /sky:
+ * /login:
  *  post:
- *    description: Use to request all customers
+ *    description: To check authentication of the user
  *    responses:
  *      '200':
  *        description: A successful response
  */
 
-app.put('/sky',(req,res,next)=>{
-res.status(200).json({name:'siddharth'});
-})
 
+/**
+ * @swagger
+ * /register:
+ *   post:
+ *     description: Get all books
+ *     parameters:
+ *      - name: title
+ *        description: title of the book
+ *        in: formData
+ *        required: true
+ *        type: string
+ *      - name: Data
+ *        description: title of the book
+ *        in: formData
+ *        required: true
+ *        type: string
+ *        
+ *     responses:
+ *       201:
+ *         description: Created
+ */
 
+app.use(authRoutes);
 
 app.listen(PORT,()=>console.log("Server Online"));
 
