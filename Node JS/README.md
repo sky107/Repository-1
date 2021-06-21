@@ -45,11 +45,52 @@ Controllers : connecting point of Views(Frontend) and Models (logics). Connects 
 
 
 
-
-
-
-
 -----------------------------
+
+Why REST API?
+
+
+
+You can  return interface as a form of html page , but every tech like during building mobile application can't render it as it might be possible that language doesn't support , so insted to interfaces we need to send data which is totally decoupled from fronted & independent of  consuming language , so to transfer data not user interfaces we need to build REST APIs
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------
+
+What is JSON?
+
+JSON stands for JavaScript Object Notation and a typically JSON data structure looks like this:
+
+{
+    "name": "Your Name",
+    "age": 29,
+    "courses": [
+        "angular-the-complete-guide",
+        "react-the-complete-guide"
+    ],
+    "profile": {
+        "joined": "2017-05-21",
+        "courses": 2
+    },
+    "averageRating": 4.8,
+    "active": true
+}
+It looks a lot like a normal JavaScript object, but one important difference is that all key names are enclosed by double quotation marks (").
+
+Besides that, you can store text (string), numeric (integers and floats) and boolean data as well as nested objects and arrays.
+
+-------------------------
+
 
 
 Mongoose
