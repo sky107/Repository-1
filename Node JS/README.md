@@ -156,5 +156,5 @@ title:{
 
 });
 
-module.exports=mongoose.model('Product',productSchema);
+module.exports=mongoose.model('Product',productSchema)
 			     //this name will changed to lowercase and will be added as collection in mongodb , databse name will be 				  pickup from url during connection
