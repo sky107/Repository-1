@@ -12,12 +12,9 @@ const swaggerJsDoc=require('swagger-jsdoc');
 const swaggerUi=require('swagger-ui-express');
 const mongoose=require('mongoose');
 const session=require('express-session');
-const MONGODB_URI='mongodb+srv://testdb:SiOdnglgppBrMyyI@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const MONGODB_URI='mongodb+srv://testdb:eaLM1Xc7uT2djg7O@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const MongoDBStore=require('connect-mongodb-session')(session);
-const store= new MongoDBStore({
-  uri:MONGODB_URI,
-  collection:'sessions'
-});
+const store= new MongoDBStore({uri:String(MONGODB_URI),collection:'sessions'});
 const userRoutes=require('./routes/users');
 const authRoutes=require('./routes/auth');
 const app=express();
@@ -42,15 +39,30 @@ const swaggerOptions = {
   // ['.server/*.js']
   apis: ["server.js"]
 };
+
+app.use((req,res,next)=>{ //cors browser security mechansim unlinke postman
+  res.header("Access-Control-Allow-Origin","*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin,X-Requested-With,Content-Type,Accept,Authorization");
+  if(req.method==='OPTIONS'){ //you can't avoid to check 
+    res.header('Access-Control-Allow-Methos','PUT,POST,PATCH,DELETE,GET')
+    return res.status(200).json({});
+  }
+});
+
 app.use(session({secret:'siddharth_kumaryadav',resave:false,saveUninitialized:false,store:store}));
 app.use(authRoutes);
 app.use(userRoutes);
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-mongoose.connect('mongodb+srv://testdb:SiOdnglgppBrMyyI@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
+
+
+mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
 .then(result=>app.listen(PORT,()=>console.log("Server Online")))
-.catch(err=>console.log(err))
+.catch(err=>console.log("ERROR",err  ))
+
 
 /**
  * @swagger

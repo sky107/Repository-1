@@ -5,7 +5,18 @@
 const crypto=require('crypto');
 const bcrypt=require('bcrypt');
 
+const {validationResult}=require('express-validator');
+
+
 exports.postRegisterUser=(req,res,next)=>{
+
+	const errors=validationResult(req);
+
+	if(!errors.isEmpty()){
+		return res.status(422).json({
+			errorMessage:errors.array()
+		})
+	}
 	const name=req.body.name;
 	const email=req.body.email;
 	const password=req.body.password;
