@@ -12,9 +12,12 @@ const swaggerJsDoc=require('swagger-jsdoc');
 const swaggerUi=require('swagger-ui-express');
 const mongoose=require('mongoose');
 const session=require('express-session');
-const MONGODB_URI='mongodb+srv://testdb:<enter_your_password>@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const MONGODB_URI='mongodb+srv://testdb:SiOdnglgppBrMyyI@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const MongoDBStore=require('connect-mongodb-session')(session);
-const store= new MongoDBStore({uri:MONGODB_URI,collection:'sessions'});
+const store= new MongoDBStore({
+  uri:MONGODB_URI,
+  collection:'sessions'
+});
 const userRoutes=require('./routes/users');
 const authRoutes=require('./routes/auth');
 const app=express();
@@ -45,7 +48,7 @@ app.use(userRoutes);
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://testdb:SiOdnglgppBrMyyI@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
 .then(result=>app.listen(PORT,()=>console.log("Server Online")))
 .catch(err=>console.log(err))
 
