@@ -23,7 +23,7 @@ Deployment  (Best Practices)
 
 -> Set secure response headers | Ex using helmet -> app.use(helmet())  | add addtional headers for secruity
 
--> Add assets compression | Ex using compression -> app.use(compression()) | reduce the css and other chunks of files 
+-> Add assets compression | Ex using compressio -> app.use(compression()) | reduce the css and other chunks of files 
 
 -> configre logging | Ex using morgan -> app.use(morgan()) | logs error in realtime , we can configure to write in filestream
 
