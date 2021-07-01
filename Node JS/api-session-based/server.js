@@ -24,6 +24,8 @@ app.use(helmet());
 app.use(morgan('combined', { stream: serverLogStream }))
 app.use(bodyParser.json()); // To support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true }));
+app.set('view engine','ejs');
+app.set('views','views');
 const swaggerOptions = {
   swaggerDefinition: {
     info: {
@@ -46,9 +48,10 @@ app.use((req,res,next)=>{ //cors browser security mechansim unlinke postman
     "Access-Control-Allow-Headers",
     "Origin,X-Requested-With,Content-Type,Accept,Authorization");
   if(req.method==='OPTIONS'){ //you can't avoid to check 
-    res.header('Access-Control-Allow-Methos','PUT,POST,PATCH,DELETE,GET')
+    res.header('Access-Control-Allow-Methods','PUT,POST,PATCH,DELETE,GET')
     return res.status(200).json({});
   }
+  next();
 });
 
 app.use(session({secret:'siddharth_kumaryadav',resave:false,saveUninitialized:false,store:store}));
@@ -113,6 +116,18 @@ mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
  *       200:
  *         description: Created
  */
+
+
+ /**
+ * @swagger
+ * /logout:
+ *   post:
+ *     description: To Logout a user
+ *     responses:
+ *       200:
+ *         description: Created
+ */
+
 
 
 /**

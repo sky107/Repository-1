@@ -4,7 +4,7 @@
 ************************************/
 const crypto=require('crypto');
 const bcrypt=require('bcrypt');
-
+const User=require('../models/user');
 const {validationResult}=require('express-validator');
 
 
@@ -37,18 +37,21 @@ exports.postRegisterUser=(req,res,next)=>{
 exports.postLoginUser=(req,res,next)=>{
 	const email=req.body.email.trim();
 	const password=req.body.password;
-
-	User.findOne({email:email,password:password})
+	let userTobeLogin;
+	User.findOne({email:email})
 	.then(user=>{
 		if(user!==null)
-		{req.session.user=user;
-				res.json({response:"Logged In"});}
-				else{
-					res.json({response:"User Not Found"});
-				}
+		{
+			userToBeLogin=user;
+			return bcrypt.compare(password,user.password)
+				
+	}})
+	.then(result=>{
+		req.session.data=userToBeLogin;
+		res.json({response:"Logged In"});
 	})
 	.catch(err=>{console.log(err)
-		res.json({response:"Something went wrong"});
+			res.json({errorMessage:"User Not Found"});
 	});
 
 
@@ -56,7 +59,8 @@ exports.postLoginUser=(req,res,next)=>{
 }
 
 exports.getServer=(req,res,next)=>{
-	if(req.session.user!==undefined){
+	console.log(req.session.user); 
+	if(req.session.data!==undefined){
 		res.status(200).json(req.session.user);
 	}
 	else{
@@ -67,7 +71,7 @@ exports.getServer=(req,res,next)=>{
 
 exports.postLogout=(req,res,next)=>{
 	req.session.destroy(e=>{
-		res.json({response:"Logout Success"});
+		res.json({response:"Logout Success"})
 	});
 
 }
@@ -83,7 +87,7 @@ exports.postPasswordReset=(req,res,next)=>{
 		User.findOne({email:req.body.email})
 		.then((user)=>{
 			if(!user){
-				req.flash('error','No account with that email found')
+				res.json({errorMessage:'No account with that email found'});
 				return res.end();
 			}
 			user.resetToken=token;
@@ -92,29 +96,50 @@ exports.postPasswordReset=(req,res,next)=>{
 		})
 		.then(result=>{
 			//nodemailer code
+			return res.json({response:"Success"})
+
 		})
-		.catch(err=>console.log(err));
+		.catch(err=>res.json({errorMessage:"Something went wrong"}));
 	})
 }
 
 exports.postNewPassword=(req,res,next)=>{
-	const resetToken=req.params.token;
+	console.log(req.body);
+	const resetToken=req.body.token;
 	const newPassword=req.body.newPassword;
+	const confirmNewPassword=req.body.confirmNewPassword;
+	if(newPassword!==confirmNewPassword){
+		res.json({errorMessage:"Password and Confirm password Not Matching"});
+	}
 	let userToBeReset;
 	User.findOne({resetToken:resetToken,resetTokenExpiration:{$gt:Date.now()}})
 	.then(user=>{
+		if(!user){
+			res.json({errorMessage:"User Not Found"})
+		}
 		userToBeReset=user;
-		return bcrypt.hash(newPassword);
+		console.log(newPassword,"HASING ");
+		return bcrypt.hash(newPassword,12);
 	})
 	.then(hashedPassword=>{
+		console.log("USER TO BE RESET ",userToBeReset);
 		userToBeReset.password=hashedPassword;
 		userToBeReset.resetToken=undefined;
 		userToBeReset.resetTokenExpiration=undefined;
 		return userToBeReset.save();
 	})
 	.then(result=>{
-		//
+		console.log("CHANGED PASSWORD");
+		res.json({response:"Password Changed Successfully"})
 	})
-	.catch(err=>console.log(err))
+	.catch(err=>{console.log(err);res.json({errorMessage:"Something went wrong"})})
+	
+}
 
+exports.getPasswordReset=(req,res,next)=>{
+	console.log(req.params.token);
+	res.render('password_reset',{
+		pageTitle:'Password Reset Form',
+		token:req.params.token
+	});
 }

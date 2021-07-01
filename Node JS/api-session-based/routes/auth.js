@@ -1,4 +1,5 @@
 /************************************
+/************************************
 * Author : Siddharth Kumar Yadav
 * Email: siddharthsk101@gmail.com
 ************************************/
@@ -34,8 +35,10 @@ router.post('/logout',isAuth,auth.postLogout);
 
 router.get('/server',isAuth,auth.getServer);
 
-router.post('/reset',auth.postPasswordReset);
+router.post('/reset',auth.postPasswordReset); //to enter the email address
 
-router.post('/reset/:token',auth.postNewPassword);
+router.get('/reset/:token',auth.getPasswordReset); // sent to email
+
+router.post('/new-password',auth.postNewPassword); //post request for new password
 
 module.exports=router;
