@@ -17,17 +17,31 @@ exports.postRegisterUser=(req,res,next)=>{
 			errorMessage:errors.array()
 		})
 	}
+	console.log(req.body);
 	const name=req.body.name;
 	const email=req.body.email;
 	const password=req.body.password;
 
-	const user=new User({
+	
+	
+	
+	
+
+
+
+	bcrypt.hash(password,12)
+	.then(hashedResult=>{
+
+
+		const user=new User({
 		name:name,
 		email:email,
-		password:password
+		password:hashedResult
 	});
 
 	user.save()
+	
+	})
 	.then(result=>{
 		res.sendStatus(201);
 	})
@@ -40,15 +54,30 @@ exports.postLoginUser=(req,res,next)=>{
 	let userTobeLogin;
 	User.findOne({email:email})
 	.then(user=>{
+
+		console.log("USER IS THERE");
+
 		if(user!==null)
 		{
 			userToBeLogin=user;
 			return bcrypt.compare(password,user.password)
-				
-	}})
+		}
+		else{
+			res.json({errorMessage:"User Not Found"});
+		}
+
+	})
 	.then(result=>{
-		req.session.data=userToBeLogin;
-		res.json({response:"Logged In"});
+
+		//note if comparison is false then also it enters this block
+		// console.log(result);
+
+		if(result)
+		{req.session.data=userToBeLogin;
+				res.json({response:"Logged In"});}
+	    else{
+	    	res.json({response:"Invalid Credential"});
+	    }
 	})
 	.catch(err=>{console.log(err)
 			res.json({errorMessage:"User Not Found"});
@@ -59,9 +88,9 @@ exports.postLoginUser=(req,res,next)=>{
 }
 
 exports.getServer=(req,res,next)=>{
-	console.log(req.session.user); 
+	console.log(req.session.data); 
 	if(req.session.data!==undefined){
-		res.status(200).json(req.session.user);
+		res.status(200).json(req.session.data);
 	}
 	else{
 		res.status(401).json({response:"Please Log In"})

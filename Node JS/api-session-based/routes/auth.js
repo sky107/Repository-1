@@ -23,8 +23,6 @@ router.post('/register',
 	}),
 	body('password','Please enter a password with only numbers and text with atlest 5 characters')//means body
 	.isLength({min:5})
-	.isAlphanumeric() //FOR PRODCUTOIN NOT
-	
 	],
 	auth.postRegisterUser)
 	//WE CAN CONFIGUIRE CONFIRM PASSWORD HERE ONLY USING EXPRESS CUSTOM VALIDATOR

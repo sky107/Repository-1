@@ -18,7 +18,7 @@ const store= new MongoDBStore({uri:String(MONGODB_URI),collection:'sessions'});
 const userRoutes=require('./routes/users');
 const authRoutes=require('./routes/auth');
 const app=express();
-const PORT=process.env.PORT || 5000;
+const PORT=5000;
 const serverLogStream = fs.createWriteStream(path.join(__dirname, 'server.log'), { flags: 'a' })
 app.use(helmet());
 app.use(morgan('combined', { stream: serverLogStream }))
@@ -157,7 +157,15 @@ mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
  *         description: Created
  */
 
-
+/**
+ * @swagger
+ * /reset/:token:
+ *   get:
+ *     description: To get the reset html page
+ *     responses:
+ *       200:
+ *         description: Created
+ */
 
 
 /**
@@ -207,11 +215,6 @@ mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true})
  * /users/:userId:
  *   get:
  *     description: To get single user
- *     parameters:
- *      - name: userId
- *        description: MongoDB _id
- *        in: formData
- *        type: string
  *     responses:
  *       200:
  *         description: Success
