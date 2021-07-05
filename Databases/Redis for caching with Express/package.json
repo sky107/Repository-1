@@ -1,0 +1,20 @@
+{
+  "name": "caching-using-redis",
+  "version": "1.0.0",
+  "description": "Performance Optimization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"nodemon server.js"
+  },
+  "author": "Siddharth Kummar Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
