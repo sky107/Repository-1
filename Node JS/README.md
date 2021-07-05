@@ -91,6 +91,15 @@ Besides that, you can store text (string), numeric (integers and floats) and boo
 
 -------------------------
 
+What is Callback ?
+------------------------
+
+
+[Link](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
+
+
+---------------------------------------------------------
+
 
 
 Mongoose
