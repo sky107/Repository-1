@@ -1,0 +1,1 @@
+npm i bcrypt express express-validator helmet compression morgan swagger-jsdoc swagger-ui-express jsonwebtoken mysql2 --save && npm i nodemon --D
