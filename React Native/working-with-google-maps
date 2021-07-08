@@ -1,0 +1,73 @@
+/*
+Author : Siddharth Kumar Yadav
+Email : siddharthsk101@gmail.com
+*/
+
+import React from 'react';
+import {Text,View,Image,Dimensions} from 'react-native';
+import MapView,{Callout,Polyline,Circle} from 'react-native-maps';
+
+const {height,width}=Dimensions.get('window');
+
+export default ()=>{
+    return(<>
+ 
+        <MapView
+        // This has many predefined functions like when changing viewport , onPress ,etc onPress={e=>console.log(e)}
+        style={{
+            height:height
+        }}
+    initialRegion={{
+      latitude: 37.78825,
+      longitude: -122.4324,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421,
+    }}
+  >
+      <MapView.Marker
+     // draggable={false}
+      // onDragEnd={(e) => this.setState({ x: e.nativeEvent.coordinate })}
+        coordinate={{
+            latitude: 37.78825,
+      longitude: -122.4324
+        }}
+        title="Siddharth" //default
+      >
+        <Image source={require('../../assets/logo/logo.png')} />
+        {/* Image first then callout */}
+        <Callout>
+              <Text>Hello Siddharth</Text>
+              </Callout>
+    </MapView.Marker>
+    
+    <Polyline
+		coordinates={[
+			{ latitude: 37.8025259, longitude: -122.4351431 },
+			{ latitude: 37.7896386, longitude: -122.421646 },
+			{ latitude: 37.7665248, longitude: -122.4161628 },
+			{ latitude: 37.7734153, longitude: -122.4577787 },
+		]}
+		strokeColor="blue" // fallback for when `strokeColors` is not supported by the map-provider
+		// strokeColors={[
+		// 	'#7F0000',
+		// 	'#00000000', // no color, creates a "long" gradient between the previous and next coordinate
+		// 	'#B24112',
+		// 	'#E5845C',
+		// 	'#238C23',
+		// 	'#7F0000'
+		// ]}
+		strokeWidth={6}
+	/>
+  <Circle
+  center={
+    { latitude: 37.7734153, longitude: -122.4577787 }}
+radius={2000}
+strokeWidth={1}
+strokeColor="green"
+fillColor="transparent"
+/>
+ </MapView>
+      
+    
+    </>)
+}
