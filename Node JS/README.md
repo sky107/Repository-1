@@ -119,3 +119,14 @@ It allows to create models to handle with database easily
 
 Schemas & Models, Instances, Queries me helpful
 
+
+
+---------------
+
+
+##Redis Resource
+
+
+
+
+https://www.sitepoint.com/using-redis-node-js/
