@@ -124,7 +124,7 @@ Schemas & Models, Instances, Queries me helpful
 ---------------
 
 
-##Redis Resource
+## Redis Resource
 
 
 
