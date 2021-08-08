@@ -8,8 +8,29 @@ Instagram | Walmart | UberEats | Skype | Myntra | Salesforce | Tesla | Bloomberg
 --------------------------------------------------------------
 
 
--------------
 
+
+
+
+
+
+
+-------------
+Instagram Login Screen Clone
+
+
+
+Use this [link](https://cutt.ly/HjGr3R7) to emulate on iOS | Click on iPhone Screen continously to load screen
+
+
+
+
+![alt text](http://res.cloudinary.com/df2q7cryi/image/upload/795edad3d1796dc1672fca8578bc094f1610874528.png)
+
+
+
+
+-----------------
 
 
 
