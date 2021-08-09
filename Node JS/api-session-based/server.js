@@ -12,7 +12,7 @@ const swaggerJsDoc=require('swagger-jsdoc');
 const swaggerUi=require('swagger-ui-express');
 const mongoose=require('mongoose');
 const session=require('express-session');
-const MONGODB_URI='mongodb+srv://testdb:eaLM1Xc7uT2djg7O@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const MONGODB_URI='mongodb+srv://testdb:JqfMyCWTR8YQ5p4n@cluster0.v48mv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const MongoDBStore=require('connect-mongodb-session')(session);
 const store= new MongoDBStore({uri:String(MONGODB_URI),collection:'sessions'});
 const userRoutes=require('./routes/users');
