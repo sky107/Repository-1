@@ -130,3 +130,11 @@ Schemas & Models, Instances, Queries me helpful
 
 
 https://www.sitepoint.com/using-redis-node-js/
+
+
+
+---------------------
+
+
+node_modules debugging
+https://levelup.gitconnected.com/understanding-dependency-management-with-node-modules-1c47bcdee98b
