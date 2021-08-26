@@ -3,10 +3,11 @@ Siddharht Kumar Yadav
 23/08/2001
 */
 
+
 import React,{useRef,useState} from 'react';
 import {View,StyleSheet,Pressable,Text,Button,TextInput} from 'react-native';
 import RBSheet from "react-native-raw-bottom-sheet";
- import StepIndicator from 'react-native-step-indicator';
+import StepIndicator from 'react-native-step-indicator';
 
 export default ()=>{
     const labels = ["Cart","Delivery Address","Order Summary","Payment Method","Track"];

@@ -18,8 +18,6 @@ const [vis,setVis]=React.useState(false);
 
   </View>
 
-
-
   <Dialog
     visible={vis}
     onTouchOutside={() => {

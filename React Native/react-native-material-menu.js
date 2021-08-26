@@ -2,6 +2,7 @@
 Author : Siddharth Kumar Yadav
 24/08/2021
 */
+
 import React, { useState } from 'react';
 
 import { View, Text } from 'react-native';

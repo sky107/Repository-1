@@ -9,8 +9,6 @@ import Onboarding from 'react-native-onboarding-swiper';
 
 export default ()=>{
 
-
-
   const Done = ({ isLight, ...props }) => (
     <Button
       title={'Done'}

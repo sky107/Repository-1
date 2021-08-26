@@ -11,7 +11,6 @@ import { Rating, AirbnbRating } from 'react-native-ratings';
 
 export default function App() {
   
-
   return (<>
   <View style={{marginTop:30}}>
 	  
