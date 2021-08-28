@@ -264,6 +264,11 @@ https://github.com/react-native-netinfo/react-native-netinfo
 
 
 
+https://github.com/halilb/react-native-textinput-effects
+
+
+
+
 
 
 
