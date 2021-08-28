@@ -167,5 +167,34 @@ https://github.com/kuasha420/react-native-paper-alerts
 
 
 
+https://github.com/Ramotion/react-native-circle-menu
+
+
+
+
+https://stackoverflow.com/questions/35572084/how-to-realize-a-circle-image-button-with-react-native?rq=1
+
+
+
+
+
+
+https://github.com/xotahal/react-native-material-ui/blob/master/docs/Components.md
+
+
+
+
+
+https://reactnativeforyou.com/
+
+
+
+
+
+
+
+
+
+
 
 
