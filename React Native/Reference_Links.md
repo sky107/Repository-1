@@ -270,7 +270,7 @@ https://github.com/halilb/react-native-textinput-effects
 
 
 
-
+https://morioh.com/p/f38ebbe8f9fc
 
 
 
