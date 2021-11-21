@@ -56,7 +56,8 @@ SELECT CONCAT(name,' , ',country) AS location FROM cities;
 -- FUNCTIONS
 
 SELECT
-  CONCAT(UPPER(name), ' ,', upper(country)) AS location
+  CONCAT(U.
+  	PPER(name), ' ,', upper(country)) AS location
 from
   cities;
 
