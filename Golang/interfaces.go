@@ -27,7 +27,7 @@ func (l *Lambo) Stop(){
 fmt.Println("Stopping");
 }
 
-// Returning a struct
+// Returning a interface
 func NewModel(arg string) Car{
 return &Lambo{arg};
 }
