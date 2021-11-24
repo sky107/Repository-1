@@ -30,7 +30,41 @@ Use this [link](https://cutt.ly/HjGr3R7) to emulate on iOS | Click on iPhone Scr
 
 
 
------------------
+
+
+
+
+------------------
+Ratings   |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/c_crop,h_401,w_823/v1637534608/ratings_ecvf1v.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/react-native-ratings.js)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637779919/test_gahkhx.png)
+
+
+
+------------------
+Step-Indicator-and-Bottom-Sheet   |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/v1637534853/screen-capture_2_fjypx0.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/steps-indicator-and-bottomsheet.js)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637780037/test_ttzycn.png)
+
+
+
+------------------
+Onboarding-Swiper |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/c_crop,h_401,w_823/v1637534604/swiper_w2jhjf.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/react-native-onboarding-swiper.js)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637780483/test3_df367v.png)
+
+
+
+------------------
+Animated-Bottom-Bar   |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/v1637534604/animated-bottom-bar_ubxtii.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/animated-bottom-bars.js)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637779355/test-1_to0fqt.png)
+
+
+
+------------------
+Android-like-Material-Menu |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/c_crop,h_401,w_823/v1637534608/react-native-material-menu_ysoqn7.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/react-native-material-menu.js)
+![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637780243/test_yduysf.png)
+
+
+
+
 
 
 
