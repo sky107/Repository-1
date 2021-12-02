@@ -62,7 +62,9 @@ Animated-Bottom-Bar   |  [Live](https://res.cloudinary.com/df2q7cryi/video/uploa
 Android-like-Material-Menu |  [Live](https://res.cloudinary.com/df2q7cryi/video/upload/c_crop,h_401,w_823/v1637534608/react-native-material-menu_ysoqn7.mkv)  | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/react-native-material-menu.js)
 ![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1637780243/test_yduysf.png)
 
-
+---------------------
+ Custom Modal and Video Player | [Live](https://res.cloudinary.com/df2q7cryi/video/upload/c_crop,h_401,w_823/v1638445405/screen-capture_10_znfch9.mkv) | [Code](https://github.com/sky107/Repository-1/blob/main/React%20Native/react-native-video.js)
+ ![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1638445603/sdafdsf_v8ilq7.png)
 
 
 
