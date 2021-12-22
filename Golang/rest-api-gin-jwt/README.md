@@ -1,4 +1,4 @@
-JWT is an open source standard that defines compact and self-contained way of securely transmitting information betwene parties as a JSON object,
+JWT is an open source standard that defines compact and self-contained way of securely transmitting information betwene parties as a JSON object
 
 
 
