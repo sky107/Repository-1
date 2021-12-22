@@ -1,1 +1,0 @@
-https://www.soberkoder.com/swagger-go-api-swaggo/
