@@ -19,7 +19,7 @@ module.exports={
 				errors.push({message:"Email is Invalid"});
 			
 
-			if(validator.isEmpty(args.userInput.password) || !validator.isLength(args.userInput.password,{mid:5}))
+			if(validator.isEmpty(args.userInput.password) || !validator.isLength(args.userInput.password,{min:5}))
 				errors.push({message:"password too short"})
 
 			if(errors.length > 0 ){
