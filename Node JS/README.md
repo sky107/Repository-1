@@ -1,4 +1,54 @@
 
+GraphQL Core Concepts 
+-----------------
+
+
+
+*  Stateless , client independent API
+
+
+
+* Higher Flexible than REST
+
+
+
+
+* Extensive Queries to exchange and manage Data
+
+
+
+* All Queries are mapped to one end point
+
+
+
+
+
+GraphQL vs REST
+----------
+
+
+
+* REST APIs are great for static data requirements 
+
+
+
+
+* GraphQL gives you higher flexibilyy by exposing a full query language to the client
+
+
+
+
+
+
+* Both REST and GraphQL can be implement in any frameowk and actucally enven with any server-side language
+
+
+
+
+
+
+
+
 npm and Node as a build tool
 -----
 npm is a cli ,  to install & manage the function/algorithm that are isolated and ready to use for dev, called packages 
@@ -15,6 +65,9 @@ Example :
 	
 Basically , when we develop a react application so we use say, react-scripts that is also written in  nodejs which compiler the modern ReactJS code to miniifed optimised browser executable code by trasnforming using webpacks & other packages and npm acts a build tool also.
 	
+
+
+
 Deployment  (Best Practices)
 ----------- 
 -> Use .env files | we can configure env variable before 'node app.js' command type file with modified scripts
@@ -57,9 +110,18 @@ You can  return interface as a form of html page , but every tech like during bu
 
 
 
+Naming Conventions for Code Quality : 
 
 
 
+https://api.gov.au/standards/national_api_standards/naming-conventions.html
+
+
+
+https://restfulapi.net/resource-naming/
+
+
+https://nordicapis.com/10-best-practices-for-naming-api-endpoints/
 
 
 
@@ -91,15 +153,6 @@ Besides that, you can store text (string), numeric (integers and floats) and boo
 
 -------------------------
 
-What is Callback ?
-------------------------
-
-
-[Link](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
-
-
----------------------------------------------------------
-
 
 
 Mongoose
@@ -128,13 +181,6 @@ Schemas & Models, Instances, Queries me helpful
 
 
 
-
 https://www.sitepoint.com/using-redis-node-js/
 
 
-
----------------------
-
-
-node_modules debugging
-https://levelup.gitconnected.com/understanding-dependency-management-with-node-modules-1c47bcdee98b
