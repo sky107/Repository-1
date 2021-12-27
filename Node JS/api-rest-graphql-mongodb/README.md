@@ -2,10 +2,6 @@
 In this mini-project I have used graphql along with express-graphql to perform query and mutation along with custom error handling using validator pckg , with the help of ODM library mongoose its easy to manage data and store in mongodb
 
 
-[Video Demonstration Link Here](https://youtu.be/GECqaQx9gLc)
-
-
-![alt text](https://res.cloudinary.com/df2q7cryi/image/upload/v1640447835/Untitled_djtxtj.png)
 
 
 
