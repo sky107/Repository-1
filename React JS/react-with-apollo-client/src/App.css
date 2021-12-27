@@ -1,0 +1,27 @@
+
+.header-search-bar{
+background-color: #eee;
+ margin:10px;
+ padding:10px;
+ /* display: flex; */
+ /* justify-content: space-around; */
+}
+.header-input{
+  outline: none;
+  padding:10px;
+  border:none;
+  border-radius: 20px 0px 0px 20px;
+}
+.header-button{
+  outline:none;
+  border:none;
+  background-color: black;
+  color:white;
+  padding:10px;
+  border-radius: 0px 20px 20px 0px;
+}
+.data-list{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
