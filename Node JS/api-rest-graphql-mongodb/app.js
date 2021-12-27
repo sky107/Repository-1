@@ -1,41 +1,14 @@
-const path = require('path');
 const fs=require('fs');
+const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const multer = require('multer');
 const { graphqlHTTP } = require('express-graphql');
 const graphqlSchema=require('./graphql/schema');
 const graphqlResolvers=require('./graphql/resolvers');
 const auth=require('./middleware/auth')
 const app = express();
 
-const fileStorage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'images');
-  },
-  filename: (req, file, cb) => {
-    cb(null, new Date().toISOString() + '-' + file.originalname);
-  }
-});
-
-const fileFilter = (req, file, cb) => {
-  if (
-    file.mimetype === 'image/png' ||
-    file.mimetype === 'image/jpg' ||
-    file.mimetype === 'image/jpeg'
-  ) {
-    cb(null, true);
-  } else {
-    cb(null, false);
-  }
-};
-
-// app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
-app.use(bodyParser.json()); // application/json
-app.use(
-  multer({ storage: fileStorage, fileFilter: fileFilter }).single('image')
-);
 
 
 app.use((req, res, next) => {
@@ -51,31 +24,12 @@ app.use((req, res, next) => {
 
 app.use(auth);
 
-app.put('/post-images',(req,res,next)=>{
-
-  if(!req.isAuth){
-    throw new Error("Not authenticated");
-  } 
-
-  if(!req.file){
-    return res.status(200).json({message:'No file provided'})
-  }
-  
-  if(req.body.oldPath){
-    clearImage(req.body.oldPath);
-    return res.status(201).json({message:"file stored",filePath:req.file.path});
-  }
-
-
-})
-
-
 app.use('/graphql',graphqlHTTP({
   schema: graphqlSchema,
   rootValue:graphqlResolvers,
   graphiql:true,
   customFormatErrorFn(err){
-    // err.originalError  find in missing character in query 
+    
     if(!err.originalError){
       return err;
     }
@@ -92,7 +46,6 @@ app.use('/graphql',graphqlHTTP({
 
 
 app.use((error, req, res, next) => {
-  console.log(error);
   const status = error.statusCode || 500;
   const message = error.message;
   const data = error.data;
@@ -108,8 +61,3 @@ mongoose
   })
   .catch(err => console.log(err));
 
-
-const clearImage = filePath => {
-  filePath = path.join(__dirname, '..', filePath);
-  fs.unlink(filePath, err => console.log(err));
-};
