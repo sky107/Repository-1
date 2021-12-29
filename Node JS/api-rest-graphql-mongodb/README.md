@@ -3,6 +3,14 @@ In this mini-project I have used graphql along with express-graphql to perform q
 
 
 
+[Video Explanation Part-1](https://youtu.be/U6EKPOEAlHg)
+
+
+
+
+
+[Video Explanation Part-2](https://youtu.be/s6GioyO1Amw)
+
 
 
 -----------------------------------------
