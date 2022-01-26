@@ -84,6 +84,10 @@ Deployment  (Best Practices)
 
 
 Note to depolyment in Heroku-> If we are storing some data on server heroku restarts /sleeps hence entire code get re exectued in FREETIER , hence data does not  persists so use third party like AWS S3 , etc . In case of own server IP virtual machine ,no issue.
+
+
+
+By default Heroku run on certain port so use proces.ENV else it might crash your nodejs application , just a precaution check
 	
 	
 MVC
