@@ -34,7 +34,7 @@ db.areas.insertOne({name:"Park",location:{type:"Polygon",coordinates:[p1,p2,p3,p
 db.areas.createIndex({location:"2dsphere"})
 db.areas.find({area:{$geoIntersects:{$geometry:{type:"Point",coordinates:[24,23423]}}}})
 
-<!-- this will return the region in which all these ponit in present -->
+<!-- this will return the region/regions in which all these ponit in present -->
 
 <!--  1/radius mean we want to look inside 1km radius -->
 
