@@ -12,3 +12,5 @@ Developer pushes the code to github
 CI Server detects changes new push occured
 CI Server will clone to server virtucal machine run test and
 If test pass push notification automatice deploy else followup
+
+Common CI Providers : => travis , CodePush by AWS
