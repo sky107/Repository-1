@@ -1,0 +1,28 @@
+color: 'red'
+name: 'siddharth'
+number: 49999
+languagesIKnow:
+  english: 'very well'
+  hindi: 'okay'
+countToFive:
+  - 'one'
+  - 'two'
+  - 'three'
+  - 'four'
+  - 'five'
+#   {
+#   "color": "red",
+#   "name": "siddharth",
+#   "number": 49999,
+#   "languagesIKnow": {
+#     "english": "very well",
+#     "hindi": "okay"
+#   },
+#   "countToFive": [
+#     "one",
+#     "two",
+#     "three",
+#     "four",
+#     "five"
+#   ]
+# }
