@@ -192,3 +192,9 @@ https://www.sitepoint.com/using-redis-node-js/
 
 https://www.section.io/engineering-education/logging-with-winston/
 
+
+https://medium.com/swlh/rabbitmq-developing-message-based-applications-a56003c55649
+
+
+
+https://www.calsoftinc.com/blogs/2017/04/rabbitmq-robust-way-messaging-application.html
