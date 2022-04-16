@@ -19,6 +19,8 @@ https://www.npmjs.com/package/react-native-timeline-flatlist
 https://www.npmjs.com/package/react-native-anchor-carousel
 
 
+https://www.npmjs.com/package/react-native-snap-carousel
+
 
 
 https://www.npmjs.com/package/react-native-confirmation-code-field
