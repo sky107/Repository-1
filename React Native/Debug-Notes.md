@@ -29,3 +29,19 @@ https://www.npmjs.com/package/react-native-confirmation-code-field
 
 
 https://www.npmjs.com/package/react-native-responsive-screen
+
+
+
+https://www.npmjs.com/package/react-native-size-matters
+
+
+https://www.npmjs.com/package/react-native-swipe-gestures
+
+
+
+
+https://www.npmjs.com/package/react-native-switch-selector
+
+
+
+
