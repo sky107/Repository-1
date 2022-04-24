@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "api-random-words": "apps/api-random-words"
+  }
+}
