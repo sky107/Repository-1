@@ -198,3 +198,8 @@ https://medium.com/swlh/rabbitmq-developing-message-based-applications-a56003c55
 
 
 https://www.calsoftinc.com/blogs/2017/04/rabbitmq-robust-way-messaging-application.html
+
+
+
+
+https://www.gosquared.com/blog/making-dashboard-faster
