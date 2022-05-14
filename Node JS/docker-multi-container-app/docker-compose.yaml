@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  database:
+    image: 'mongo'
+    volumes:
+      - data:/data/db:ro
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: ''
+    env_file:
+      - ./env/mongo.env
+    # networks:
+    #   - goals-net out of the box get a network docker compose
+  backend:
+    build: './backend'
+    ports:
+      -'80:80'
+    volumes:
+      - logs
+  frontend:
+    build: './frontend'
+    ports:
+      - '3000:3000'
+volumes:
+  data:
+  # different containers can use same value as mentioned by nameif
