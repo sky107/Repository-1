@@ -203,3 +203,6 @@ https://www.calsoftinc.com/blogs/2017/04/rabbitmq-robust-way-messaging-applicati
 
 
 https://www.gosquared.com/blog/making-dashboard-faster
+
+
+https://www.youtube.com/watch?v=wbnOmXWyd9E
