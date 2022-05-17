@@ -1,0 +1,14 @@
+{
+  "name": "docker-load-balance-node-nginx",
+  "version": "1.0.0",
+  "description": "A simple example of load balancing using the default Nginx round robin approach for a simple node.js application",
+  "main": "startup.sh",
+  "scripts": {
+    "start": "./startup.sh"
+  },
+  "author": "SKY",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

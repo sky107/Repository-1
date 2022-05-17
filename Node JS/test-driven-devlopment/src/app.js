@@ -11,37 +11,7 @@ app.post('/api/1/users',(req,res)=>{
         return res.send({
             message:"User Created"
         })
-    })  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    })     
 })
 module.exports=app;
 // cross-env and config are related ,config looks for dev.json prod.json etsc files insdide config folder
