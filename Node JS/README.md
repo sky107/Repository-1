@@ -227,3 +227,6 @@ https://www.gosquared.com/blog/making-dashboard-faster
 
 
 https://www.youtube.com/watch?v=wbnOmXWyd9E
+
+
+https://www.youtube.com/watch?v=wXfKmtohjpc
