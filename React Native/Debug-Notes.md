@@ -46,5 +46,5 @@ https://www.npmjs.com/package/react-native-swipe-gestures
 https://www.npmjs.com/package/react-native-switch-selector
 
 
-
+https://github.com/ErickMaeda/react-native-email-action
 
