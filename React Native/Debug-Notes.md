@@ -58,3 +58,8 @@ https://www.npmjs.com/package/zustand
 
 
 https://www.npmjs.com/package/date-fns
+
+
+
+
+https://stackoverflow.com/questions/71185785/running-default-rn-native-project-in-ios-gives-error
