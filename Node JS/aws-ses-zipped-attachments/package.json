@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "aws-sdk": "^2.1153.0",
+    "mimemessage": "^1.0.5"
+  }
+}

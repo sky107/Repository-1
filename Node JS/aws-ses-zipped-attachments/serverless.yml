@@ -1,0 +1,12 @@
+service: ses-test
+
+framcleareworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  deploymentBucket:
+    name: reach-reports-dev-test
+functions:
+  hello:
+    handler: handler.hello
