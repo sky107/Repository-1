@@ -279,6 +279,14 @@ Fsx -> 3rd party filesystem will  implemnet
 
 
 
+Load balancing
+
+3 Levels -> Applicatoin Layer 7 HTTP , Network Layer 4 , Classic Load balancing
+
+// adding load balancer is easy, simply add instances group , makr sure security group of each eposes relevant port for load balancing , 
+
+// ASG for flipkart sale / machine learning type of thing
+
 
 ---------
 
