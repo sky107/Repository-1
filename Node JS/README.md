@@ -288,6 +288,60 @@ Load balancing
 // ASG for flipkart sale / machine learning type of thing
 
 
+###s3 Bucket region to region differ
+
+
+S3 bucket is backbone, and you can even use to host statick website, simply upload static file and settings, enabel hosting, index.html as entry point ...., make sure it  bucket should be publically available
+
+
+Bucket Versioning
+
+Bucket log will create logs in bucket to some folder if you want
+Glacier takes time to recover but cheaper
+
+
+
+
+lightsail -> Simplified versions
+
+
+
+AWS RDS -> SQL 
+
+Aurora -> created by AWS , cloud ooptimized not open source not free
+Postrgres / SQL
+
+ElasticCache -> Inmemory DB Managed Redis/ Memcached
+
+
+Redshift for warehouse & analytics
+
+EMR -> Bigdata handoop cluster mangement
+
+Athena -> analysising data in S3 bucket
+
+DocumentDB -> Top of MongoDB
+
+Neptunre -> Graph DB
+
+Beanstack -> Paas, 3tier mostly , dashboard for monitoring
+its code centric Developer point of view
+
+while CloudFormation any data/not necessary an application
+
+
+route53 -> Managed DNS
+Normal, Weighted to ec2 instances, Low latency policy
+
+
+
+
+
+
+
+
+
+
 ---------
 
 
