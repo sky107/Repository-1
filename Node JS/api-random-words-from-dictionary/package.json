@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "npx nx serve && y",
     "build": "nx build",
     "test": "nx test"
   },
@@ -29,7 +29,6 @@
     "eslint": "~8.12.0",
     "eslint-config-prettier": "8.1.0",
     "jest": "27.5.1",
-    "nx": "14.0.2",
     "prettier": "^2.5.1",
     "ts-jest": "27.1.4",
     "ts-node": "9.1.1",

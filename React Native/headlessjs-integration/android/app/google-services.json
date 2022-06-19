@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683965583022",
+    "project_id": "my-project-headless",
+    "storage_bucket": "my-project-headless.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683965583022:android:a11467f07b2b4293efe73f",
+        "android_client_info": {
+          "package_name": "com.foregroundtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683965583022-iegu61gguve3f58sl8fm6fjker9b6eip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5RhOOZ-hsrfiHB1SD55HWCGgau8geMDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683965583022-iegu61gguve3f58sl8fm6fjker9b6eip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
