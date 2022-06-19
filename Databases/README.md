@@ -25,4 +25,15 @@ On the other hand , In NoSQL  data in merged into nested int a few collections. 
 Conclusion : It depends of Type of Data you want to store , if you want more clean splitting into table data is independent go wit SQL otherwise go with NoSQL
 
 --  Siddharth Kumar Yadav
+  
+  
+  
+  
+  
+  --------------
+  Debug Notes : => 
+  Clonning of one db to another MacOS, make sure both data base are create in mysql workbench
+  
+  mysqldump -u root --password='' db1 | mysql -u root -p db2
+
 

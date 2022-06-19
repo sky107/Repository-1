@@ -46,5 +46,20 @@ https://www.npmjs.com/package/react-native-swipe-gestures
 https://www.npmjs.com/package/react-native-switch-selector
 
 
+https://github.com/ErickMaeda/react-native-email-action
 
 
+
+https://github.com/Shopify/restyle
+
+
+https://www.npmjs.com/package/zustand
+
+
+
+https://www.npmjs.com/package/date-fns
+
+
+
+
+https://stackoverflow.com/questions/71185785/running-default-rn-native-project-in-ios-gives-error

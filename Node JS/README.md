@@ -158,6 +158,27 @@ Besides that, you can store text (string), numeric (integers and floats) and boo
 -------------------------
 
 
+What is CI?
+
+Process of merge all code changes into a single branch
+It is used monstly when multiple engineers working over it
+
+What is CI Server?
+Server that runs automatic cheks (test) on the codebase to ensure nothing breaks
+
+CI Flow
+
+Developer pushes the code to github
+CI Server detects changes new push occured
+CI Server will clone to server virtucal machine run test and
+If test pass push notification automatice deploy else followup
+
+Common CI Providers : => travis ,  AWS
+
+
+
+-------
+
 
 Mongoose
 ----
@@ -179,6 +200,149 @@ Schemas & Models, Instances, Queries me helpful
 
 
 ---------------
+## AWS
+aws configure
+
+aws list iam-users  // you can define in console wheather to access in cmd or not
+
+aws cloudhsell offers online terminal
+
+
+
+ec2 instance start, create a key value pair, download pem / putty , it allocates a volume ny default, configure the userdata ie Example starting php web server  ie. the script that will run the very first time of instacnce staart , you can start/stop/terminate, 
+
+security groups -> firewall to ec2 instances
+
+
+
+if you will restart instance public ipv4 might change but private ipv4 will remain same
+
+PORT
+
+22 = SSH
+21 = FTP
+22 = SFTP
+80 =HTTP
+443 =HTTPS
+
+
+Linux 
+
+SSH Command line uses ssh protocol 
+CMd will access certain port of remote machine
+
+ssh -i ec2testkeypair.pem ec2-user@3.93.150.10
+
+yes
+
+chmod 0400 ec2testkeypair.pem      
+
+
+ssh -i ec2testkeypair.pem ec2-user@3.93.150.10
+
+you will get enter the shell
+
+you need to open port 22 in securiy group in order to access machine through cli
+
+
+// never enter aws credentials in ec2 instance as anyone can access it
+// use iam roles
+
+
+// Reserved or Convertible
+
+
+
+EBS
+// these are usb network sticks attached that data persist after  instance terminate
+
+// you can create snapshot (backup image) and transfer to other region in case of requirement
+// 
+
+EBS Archive -> Cheaper 75%
+
+// you can create image for an exisint e2 instance callled AMI , and launch instance based upon it
+// AMI are faster way of hassle free instalation of again and again server configurations
+
+
+// EC2 INstance store is alternative high performance to EBS as ebs limited performance
+
+
+// EFS mounted on 100 Linux instances , acros multiple region 3x to ebs
+
+ebs -> one instance 
+
+
+efs ->  remove hassle of snapshots and copyring to other region instance creation
+
+Fsx -> 3rd party filesystem will  implemnet
+
+
+
+Load balancing
+
+3 Levels -> Applicatoin Layer 7 HTTP , Network Layer 4 , Classic Load balancing
+
+// adding load balancer is easy, simply add instances group , makr sure security group of each eposes relevant port for load balancing , 
+
+// ASG for flipkart sale / machine learning type of thing
+
+
+###s3 Bucket region to region differ
+
+
+S3 bucket is backbone, and you can even use to host statick website, simply upload static file and settings, enabel hosting, index.html as entry point ...., make sure it  bucket should be publically available
+
+
+Bucket Versioning
+
+Bucket log will create logs in bucket to some folder if you want
+Glacier takes time to recover but cheaper
+
+
+
+
+lightsail -> Simplified versions
+
+
+
+AWS RDS -> SQL 
+
+Aurora -> created by AWS , cloud ooptimized not open source not free
+Postrgres / SQL
+
+ElasticCache -> Inmemory DB Managed Redis/ Memcached
+
+
+Redshift for warehouse & analytics
+
+EMR -> Bigdata handoop cluster mangement
+
+Athena -> analysising data in S3 bucket
+
+DocumentDB -> Top of MongoDB
+
+Neptunre -> Graph DB
+
+Beanstack -> Paas, 3tier mostly , dashboard for monitoring
+its code centric Developer point of view
+
+while CloudFormation any data/not necessary an application
+
+
+route53 -> Managed DNS
+Normal, Weighted to ec2 instances, Low latency policy
+
+
+
+
+
+
+
+
+
+
+---------
 
 
 ## Redis Resource
@@ -198,3 +362,16 @@ https://medium.com/swlh/rabbitmq-developing-message-based-applications-a56003c55
 
 
 https://www.calsoftinc.com/blogs/2017/04/rabbitmq-robust-way-messaging-application.html
+
+
+
+
+https://www.gosquared.com/blog/making-dashboard-faster
+
+
+https://www.youtube.com/watch?v=wbnOmXWyd9E
+
+
+https://www.youtube.com/watch?v=wXfKmtohjpc
+
+https://medium.com/@andy.neale/securing-node-web-applications-5d5f9bc21926
