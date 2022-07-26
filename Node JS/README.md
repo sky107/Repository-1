@@ -375,3 +375,11 @@ https://www.youtube.com/watch?v=wbnOmXWyd9E
 https://www.youtube.com/watch?v=wXfKmtohjpc
 
 https://medium.com/@andy.neale/securing-node-web-applications-5d5f9bc21926
+
+
+
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+
+
+https://www.npmjs.com/package/apicache
+
