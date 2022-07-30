@@ -64,3 +64,10 @@ https://www.npmjs.com/package/date-fns
 https://engineering.razorpay.com/deep-linking-with-our-react-native-app-9cbee7fdcbd7
 
 https://stackoverflow.com/questions/71185785/running-default-rn-native-project-in-ios-gives-error
+
+
+To Reach to specific point on ScrollView
+ // scrollViewRef.current?.scrollTo({
+                  //   x: 0,
+                  //   y: whatsNextYCoord,
+                  // });
