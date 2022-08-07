@@ -1,6 +1,6 @@
 # Repository-1
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=sky107&?count_private=true&include_all_commits=true&show_icons=true&repo=Repository-1)](https://github.com/sky107)
+<!-- [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=sky107&?count_private=true&include_all_commits=true&show_icons=true&repo=Repository-1)](https://github.com/sky107) -->
 
 ---------------------
 Major Projects
