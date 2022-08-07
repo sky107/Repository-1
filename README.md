@@ -17,7 +17,6 @@ Major Projects
 
 
 -------------------
--------------------
 
 Minor Projects 
 
