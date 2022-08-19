@@ -3,7 +3,7 @@
 <!-- [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=sky107&?count_private=true&include_all_commits=true&show_icons=true&repo=Repository-1)](https://github.com/sky107) -->
 
 ---------------------
-Major Projects
+Minor Projects
 
 [FeedPost-REST-api-with-GraphQL-mongodb](https://github.com/sky107/Repository-1/tree/main/Node%20JS/api-rest-graphql-mongodb)
 
@@ -18,7 +18,7 @@ Major Projects
 
 -------------------
 
-Minor Projects 
+Mini Projects 
 
 
 
