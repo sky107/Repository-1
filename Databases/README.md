@@ -1,4 +1,12 @@
 
+![DSystem drawio](https://user-images.githubusercontent.com/69970001/187017471-c52ec875-ffb8-49d9-a9dc-57c442722e3c.png)
+
+
+
+
+
+
+
 SQL vs NoSQL Databases
 ----------------------
 
