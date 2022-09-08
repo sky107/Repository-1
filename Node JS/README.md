@@ -345,7 +345,21 @@ Normal, Weighted to ec2 instances, Low latency policy
 ---------
 
 
-## Redis Resource
+## Debug Notes
+
+
+Configuring TS
+
+
+npx tsc --init --rootDir src --outDir build \
+--esModuleInterop --resolveJsonModule --lib es6 \
+--module commonjs --allowJs true --noImplicitAny true
+
+
+
+
+
+--------------------
 
 
 
