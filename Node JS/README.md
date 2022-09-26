@@ -358,7 +358,11 @@ npx tsc --init --rootDir src --outDir build \
 
 
 
+-------------------------
 
+Mac Setup cmmands
+
+https://pastebin.com/2a9YDByP
 --------------------
 
 
