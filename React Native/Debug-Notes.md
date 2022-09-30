@@ -7,6 +7,10 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 
 
 
+----------------------
+
+
+[Wireless Debugging](https://forum.xda-developers.com/t/adb-wifi-how-to-specify-port-and-have-it-fix.4321669/)
 ------------
 
 Imp Packages
