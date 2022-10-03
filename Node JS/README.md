@@ -134,6 +134,27 @@ https://nordicapis.com/10-best-practices-for-naming-api-endpoints/
 https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html#perform-application-activity-logging
 
 
+
+
+
+
+
+-------------------------
+
+
+
+
+
+
+
+
+
+https://mherman.org/blog/primer-on-swig-templating/
+
+
+
+
+
 ---------------------
 
 What is JSON?
