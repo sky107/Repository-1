@@ -136,6 +136,10 @@ https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html#
 
 
 
+https://www.youtube.com/watch?v=fGrSmBk9v-4
+
+
+
 
 
 
