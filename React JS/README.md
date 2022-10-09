@@ -127,3 +127,6 @@ https://popper.js.org/
 https://www.mediaelementjs.com/
 
 https://hammerjs.github.io/
+
+https://www.npmjs.com/package/react-bootstrap-typeahead
+
