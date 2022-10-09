@@ -73,6 +73,8 @@ http://siddharth-react-taskgrid.surge.sh/
 Debug Notes
 ------------------------
 
+https://docs.digitalocean.com/tutorials/app-nextjs-deploy/
+
 
 https://kenwheeler.github.io/slick/
 
