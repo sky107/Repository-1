@@ -113,3 +113,6 @@ https://loader.io/
 https://www.wappalyzer.com/lookup/gsmarena.com
 
 
+https://w3techs.com/sites/info/kickresume.com
+
+
