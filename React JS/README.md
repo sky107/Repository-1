@@ -110,4 +110,6 @@ https://www.pexels.com/
 https://loader.io/
 
 
+https://www.wappalyzer.com/lookup/gsmarena.com
+
 
