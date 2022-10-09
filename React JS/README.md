@@ -116,3 +116,5 @@ https://www.wappalyzer.com/lookup/gsmarena.com
 https://w3techs.com/sites/info/kickresume.com
 
 
+
+https://www.npmjs.com/package/react-cookie-consent
