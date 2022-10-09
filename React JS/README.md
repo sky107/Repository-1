@@ -121,5 +121,7 @@ https://www.similartech.com/websites/groww.in
 
 https://www.npmjs.com/package/react-cookie-consent
 
+https://popper.js.org/
+
 
 https://www.mediaelementjs.com/
