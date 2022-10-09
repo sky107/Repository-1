@@ -125,3 +125,5 @@ https://popper.js.org/
 
 
 https://www.mediaelementjs.com/
+
+https://hammerjs.github.io/
