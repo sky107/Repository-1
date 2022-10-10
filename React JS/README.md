@@ -69,6 +69,18 @@ http://siddharth-react-taskgrid.surge.sh/
 
 ---------------------------------------------------
 
+NextJS Notes
+----
+SSR , Filebased Routing
+
+https://blog.nrwl.io/create-a-next-js-web-app-with-nx-bcf2ab54613
+
+
+
+
+
+
+----------------------------------
 
 Debug Notes
 ------------------------
