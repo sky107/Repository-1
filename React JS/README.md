@@ -130,3 +130,5 @@ https://hammerjs.github.io/
 
 https://www.npmjs.com/package/react-bootstrap-typeahead
 
+https://www.npmjs.com/package/gsap
+
