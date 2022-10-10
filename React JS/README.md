@@ -132,5 +132,7 @@ https://www.npmjs.com/package/react-bootstrap-typeahead
 
 https://www.npmjs.com/package/gsap
 
+https://www.npmjs.com/package/localforage
+
 
 https://github.com/eligrey/FileSaver.js/
