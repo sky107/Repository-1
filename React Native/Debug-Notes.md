@@ -65,6 +65,10 @@ https://www.npmjs.com/package/date-fns
 
 
 
+https://www.npmjs.com/package/react-pace-progress
+
+
+
 
 
 "@bugsnag/react-native": "7.17.0", 
