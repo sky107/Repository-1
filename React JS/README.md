@@ -148,3 +148,9 @@ https://www.npmjs.com/package/localforage
 
 
 https://github.com/eligrey/FileSaver.js/
+
+https://refreshless.com/wnumb/
+
+
+https://refreshless.com/nouislider/
+
