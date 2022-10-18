@@ -1,0 +1,25 @@
+.btn {
+    
+    font-family: Helvetica, sans-serif;
+    padding: 16px 48px;
+    margin-top: 32px;
+    outline: none;
+    border: none;
+    // display: flex;
+    // flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // padding: 16px;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    // position: absolute;
+    // width: 320px;
+    // height: 55px;
+    // left: calc(50% - 320px/2 + 436px);
+    // top: 622px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}

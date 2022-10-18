@@ -1,0 +1,27 @@
+
+.container{
+font-family:Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+
+
+
+.event-description-block{
+    flex-grow: 1;
+
+    align-self: center;
+    padding-left: 10%;
+    flex-direction:column;
+}
+
+.event-image-block{
+    flex-grow: 1;
+    align-self: center;
+    margin-left: 10%;
+    // background-color: blue;
+ 
+}
+.cards-container{
+    // background:blue;
+}
+}
