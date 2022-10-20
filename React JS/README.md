@@ -33,6 +33,9 @@ http://siddharth-envited-assignment.surge.sh/
 
 
 
+
+
+
 ----------------------------
 <!-- //![alt text](https://user-images.githubusercontent.com/69970001/104966296-87d32f00-5a06-11eb-9be3-c866a069860e.png) -->
 
@@ -173,5 +176,5 @@ https://nosir.github.io/cleave.js/
 
 https://animejs.com/
 
-
+https://dimsemenov.com/plugins/magnific-popup/
 
