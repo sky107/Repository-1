@@ -178,3 +178,6 @@ https://animejs.com/
 
 https://dimsemenov.com/plugins/magnific-popup/
 
+https://stackoverflow.com/questions/53139884/next-js-disable-server-side-rendering-on-some-pages
+
+
