@@ -180,4 +180,4 @@ https://dimsemenov.com/plugins/magnific-popup/
 
 https://stackoverflow.com/questions/53139884/next-js-disable-server-side-rendering-on-some-pages
 
-
+https://blog.bitsrc.io/using-non-ssr-friendly-components-with-next-js-916f38e8992c
