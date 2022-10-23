@@ -198,5 +198,5 @@ GA - https://www.youtube.com/watch?v=QAdtc7VWuNE
 https://www.npmjs.com/package/lazysizes
 
 
-
+https://blog.logrocket.com/adding-amp-components-to-next-js-webpage/
 
