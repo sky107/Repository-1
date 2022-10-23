@@ -183,3 +183,8 @@ https://stackoverflow.com/questions/53139884/next-js-disable-server-side-renderi
 https://www.youtube.com/watch?v=i3Uq3-ulW-k
 
 https://blog.bitsrc.io/using-non-ssr-friendly-components-with-next-js-916f38e8992c
+
+
+
+Performance - https://www.youtube.com/watch?v=fq0Ag8rC5GE
+
