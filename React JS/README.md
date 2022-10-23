@@ -188,3 +188,7 @@ https://blog.bitsrc.io/using-non-ssr-friendly-components-with-next-js-916f38e899
 
 Performance - https://www.youtube.com/watch?v=fq0Ag8rC5GE
 
+
+
+
+GA - https://www.youtube.com/watch?v=QAdtc7VWuNE
