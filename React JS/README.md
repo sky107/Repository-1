@@ -200,3 +200,6 @@ https://www.npmjs.com/package/lazysizes
 
 https://blog.logrocket.com/adding-amp-components-to-next-js-webpage/
 
+
+https://www.istockphoto.com/
+
