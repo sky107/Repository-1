@@ -208,4 +208,10 @@ https://www.istockphoto.com/
 https://superfish.joelbirch.design/examples/
 
 
+https://www.npmjs.com/package/react-glidejs
+
+
+https://negomi.github.io/react-burger-menu/
+
+
 
