@@ -195,6 +195,12 @@ https://engineering.razorpay.com/deep-linking-with-our-react-native-app-9cbee7fd
 https://stackoverflow.com/questions/71185785/running-default-rn-native-project-in-ios-gives-error
 
 
+
+Imporatnt Package - https://www.npmjs.com/package/react-native-responsive-fontsize
+
+
+
+
 To Reach to specific point on ScrollView
  // scrollViewRef.current?.scrollTo({
                   //   x: 0,
