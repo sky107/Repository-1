@@ -201,6 +201,10 @@ Imporatnt Package - https://www.npmjs.com/package/react-native-responsive-fontsi
 
 
 
+https://javascript.plainenglish.io/analysis-of-react-native-new-architecture-with-results-1c157ab9c9c8
+
+
+
 To Reach to specific point on ScrollView
  // scrollViewRef.current?.scrollTo({
                   //   x: 0,
