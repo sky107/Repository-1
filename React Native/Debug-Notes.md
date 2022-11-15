@@ -205,6 +205,22 @@ https://javascript.plainenglish.io/analysis-of-react-native-new-architecture-wit
 
 
 
+
+
+
+
+
+https://www.digitalocean.com/community/tutorials/workflow-auto-eslinting
+
+
+
+
+
+
+
+
+
+
 To Reach to specific point on ScrollView
  // scrollViewRef.current?.scrollTo({
                   //   x: 0,
