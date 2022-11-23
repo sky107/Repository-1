@@ -226,3 +226,51 @@ To Reach to specific point on ScrollView
                   //   x: 0,
                   //   y: whatsNextYCoord,
                   // });
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  -----------------------------------------------------------------
+                  
+                  
+                  
+                  
+                  
+                  https://www.npmjs.com/package/react-native-media-query
+                  
+                  
+                  https://www.npmjs.com/package/react-native-tts
+                  
+                  
+                  
+                  
+                  https://www.npmjs.com/package/react-native-sound
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
