@@ -214,4 +214,25 @@ https://www.npmjs.com/package/react-glidejs
 https://negomi.github.io/react-burger-menu/
 
 
+--------
+
+Steps to Integrate Locatorjs - https://www.locatorjs.com/ 
+
+Install Extension 
+
+
+npm i "@locator/runtime" -D
+
+Add in index.js
+
+```
+import setupLocatorUI from "@locator/runtime";
+
+
+
+const isProduction = process.env.NODE_ENV === 'production';
+
+if(!isProduction){
+  setupLocatorUI();
+}
 
