@@ -287,3 +287,10 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                  
+                  https://github.com/software-mansion/react-native-reanimated/issues/3513#issuecomment-1228568228
+                  
+                  
+                  
+                  
+                  
