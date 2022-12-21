@@ -254,6 +254,10 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                  https://www.npmjs.com/package/react-native-slideable-calendar-strip
+                  
+                  
+                  
                   
                   https://www.npmjs.com/package/react-native-media-query
                   
