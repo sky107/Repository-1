@@ -282,6 +282,8 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                  https://stackoverflow.com/questions/41218241/unable-to-find-cmake-in-android-studio
+                  
                   
                   
                   
