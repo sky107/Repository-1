@@ -287,6 +287,12 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                  eslint-config-airbnb
+                  
+                  
+                  
+                  
+                  
                   
                   https://github.com/software-mansion/react-native-reanimated/issues/3513#issuecomment-1228568228
                   
