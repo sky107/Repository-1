@@ -95,6 +95,11 @@ https://blog.nrwl.io/create-a-next-js-web-app-with-nx-bcf2ab54613
 Debug Notes
 ------------------------
 
+
+https://react.libhunt.com/
+
+
+
 https://docs.digitalocean.com/tutorials/app-nextjs-deploy/
 
 
