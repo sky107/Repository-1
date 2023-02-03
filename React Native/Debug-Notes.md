@@ -7,6 +7,12 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 
 
 
+
+https://rnfirebase.io/perf/usage
+
+
+
+
 ----------------------
 
 
