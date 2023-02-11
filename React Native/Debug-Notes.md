@@ -310,3 +310,16 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                  
+                  https://blog.devgenius.io/how-to-use-zustand-which-is-react-state-management-library-648f55a0455f
+                  
+                  
+                  
+                  
+                  
+                  
+                  https://blog.bitsrc.io/zustands-guide-to-simple-state-management-12c654c69990
+                  
+                  
+                  
+                  
