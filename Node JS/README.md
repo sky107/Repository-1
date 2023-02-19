@@ -476,7 +476,9 @@ https://www.npmjs.com/package/loadtest
 
 
 
+https://docs.bullmq.io/
 
+https://medium.com/@techsuneel99/scaling-email-sending-with-node-js-and-aws-ses-a-guide-to-sending-50-000-emails-at-once-31a785193a7e
 
 
 
