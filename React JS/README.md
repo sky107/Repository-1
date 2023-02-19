@@ -304,6 +304,15 @@ https://www.linkedin.com/feed/update/urn:li:activity:7033067826043084800/
 
 ```
 https://ariakit.org/components/dialog
+
+
+https://mantine.dev/core/segmented-control/
+
+
+https://mantine.dev/others/tiptap/
+
+https://mantine.dev/core/modal/
+
 ```
 
 
