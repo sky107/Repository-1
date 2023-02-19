@@ -263,3 +263,45 @@ https://react-joyride.com/
 
 
 
+
+
+```
+Icon Packs
+
+Also, here are some general free icons repositories that might come in handy — some of them might be slightly outdated, but others are very, very large and could be useful:
+
+SVG Repo
+https://www.svgrepo.com
+
+Tabler Icons
+https://tablericons.com/
+
+Pixelbuddha Icons
+https://pixelbuddha.net/icons
+
+Cooking Icons
+https://goodstuffnononsense.com/hand-drawn-icons/cooking-icons/
+
+Futuristic Icons
+https://futicons.com/
+
+Streamline illustrations
+https://www.streamlinehq.com/illustrations/free-illustrations-bundle
+
+Soul Design System UI Icons
+https://www.figma.com/community/file/1177553719209731265
+
+Happy designing, everyone! 🎉🥳
+
+
+
+https://pictogrammers.com/library/mdi
+
+
+
+https://www.linkedin.com/feed/update/urn:li:activity:7033067826043084800/
+
+
+```
+
+
