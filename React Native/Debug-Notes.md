@@ -322,4 +322,7 @@ To Reach to specific point on ScrollView
                   
                   
                   
+                    https://tech.groww.in/simplifying-state-management-with-zustand-redux-saga-vs-zustand-12006a9f55de
+                  
+                  
                   
