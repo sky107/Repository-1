@@ -328,3 +328,13 @@ To Reach to specific point on ScrollView
                   
                   
                   https://tech.groww.in/dynamic-font-scaling-in-react-native-c8485b066607
+                  
+                  
+                  
+                  
+                  
+                  https://www.npmjs.com/package/react-native-blurhash
+                  
+                  
+                  
+                  
