@@ -45,3 +45,18 @@ Conclusion : It depends of Type of Data you want to store , if you want more cle
   mysqldump -u root --password='' db1 | mysql -u root -p db2
 
 
+
+
+
+
+
+
+-----------------------------
+
+for uri dump
+
+
+mongodump
+
+
+mongorestore
