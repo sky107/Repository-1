@@ -83,3 +83,12 @@ frontend:
  
 
 https://youtu.be/TG8yA3WIr9g
+
+
+
+
+
+
+--------------
+
+- Use Link tag from NextJS, insted of 'a' tag, as anchor tag repulls the page from server, however 'Link' maintains the states across the pages and make the interface more reactive and interactive 
