@@ -94,7 +94,6 @@ https://youtu.be/TG8yA3WIr9g
 - Use Link tag from NextJS, insted of 'a' tag, as anchor tag repulls the page from server, however 'Link' maintains the states across the pages and make the interface more reactive and interactive 
 - When you call a useEffect inside a function and maps the data it behave as a normal bundled script nature as in ReactJS, however if you add some code and return from getStaticProps and Map it to component then only page becomes SEO friendly
 - Reavlidate enables incrementalal static Regneration
-- Etag Optimization and Challenges - https://www.youtube.com/watch?v=TgZnpp5wJWU
 - getServerSideProps(context)
    const {req,res}=context; always pre generated eveyr call , return is statement is same
    
@@ -105,4 +104,17 @@ https://youtu.be/TG8yA3WIr9g
    }}
    ```
    In getStaticProps you can add revalidate, but in getServerSide you need not to do so (commonsense)
+- getStaticProps me you cannot use [id] as you migh have to fetch somem dynamic data and return as a prop  things as useRouter in unaccessible, so use context as in getServerSideProps [but you will not get res,req, but some other things to access 'params']
+- If you are making a page dynamic using getStaticPath then you will have to use getStaticPaths, to tell what pages have to be [id] have to pre generated during build time as getStaticProps is all about build time, add fallback key in getStatic Paths to true/false (based on redirect to 404 or generate the page
+
+- You can also write some Mongodb code in getStaticProps to pull data from MongoDB and build it during compile time example list of blogs, to save some bandwidth Pregenerated
+
+- Now in getStaticPaths, you can map all the [ids] at time of build time from MongoDB by calling MongoCode in getStaticPaths
+```
+return {fallback:false,
+paths:mongoDBResponse.map(item=>({params:{id:item?.id?.toString()})
+}```
+
+- Etag Optimization and Challenges - https://www.youtube.com/watch?v=TgZnpp5wJWU
+
 
