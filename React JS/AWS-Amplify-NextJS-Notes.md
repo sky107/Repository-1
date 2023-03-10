@@ -93,4 +93,5 @@ https://youtu.be/TG8yA3WIr9g
 
 - Use Link tag from NextJS, insted of 'a' tag, as anchor tag repulls the page from server, however 'Link' maintains the states across the pages and make the interface more reactive and interactive 
 - When you call a useEffect inside a function and maps the data it behave as a normal bundled script nature as in ReactJS, however if you add some code and return from getStaticProps and Map it to component then only page becomes SEO friendly
+- Etag Optimization and Challenges
 
