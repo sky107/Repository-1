@@ -107,13 +107,24 @@ https://youtu.be/TG8yA3WIr9g
 - getStaticProps me you cannot use [id] as you migh have to fetch somem dynamic data and return as a prop  things as useRouter in unaccessible, so use context as in getServerSideProps [but you will not get res,req, but some other things to access 'params']
 - If you are making a page dynamic using getStaticPath then you will have to use getStaticPaths, to tell what pages have to be [id] have to pre generated during build time as getStaticProps is all about build time, add fallback key in getStatic Paths to true/false (based on redirect to 404 or generate the page
 
+- fallback {'blocking'/true} there might be need to generate apart from generated during build time
+
+true -> Loader required
+Blocking -> will not show anything
+
+
+
 - You can also write some Mongodb code in getStaticProps to pull data from MongoDB and build it during compile time example list of blogs, to save some bandwidth Pregenerated
 
 - Now in getStaticPaths, you can map all the [ids] at time of build time from MongoDB by calling MongoCode in getStaticPaths
+
 ```
+
 return {fallback:false,
 paths:mongoDBResponse.map(item=>({params:{id:item?.id?.toString()})
-}```
+}
+
+```
 
 - Etag Optimization and Challenges - https://www.youtube.com/watch?v=TgZnpp5wJWU
 
