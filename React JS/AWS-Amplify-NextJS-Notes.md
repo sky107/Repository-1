@@ -131,3 +131,6 @@ paths:mongoDBResponse.map(item=>({params:{id:item?.id?.toString()})
 - https://nextjs.org/docs/api-routes/edge-api-routes
 
 
+
+
+Chanllenges with MongoDB and NextJS - https://github.com/vercel/next.js/discussions/12229
