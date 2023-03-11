@@ -128,4 +128,6 @@ paths:mongoDBResponse.map(item=>({params:{id:item?.id?.toString()})
 
 - Etag Optimization and Challenges - https://www.youtube.com/watch?v=TgZnpp5wJWU
 
+- https://nextjs.org/docs/api-routes/edge-api-routes
+
 
