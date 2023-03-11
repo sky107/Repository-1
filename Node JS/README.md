@@ -483,5 +483,44 @@ https://medium.com/@techsuneel99/scaling-email-sending-with-node-js-and-aws-ses-
 
 
 
-
 https://devhints.io/
+
+
+
+
+
+
+
+
+
+---------------------------
+
+
+
+
+
+Repetative Code Snippets
+----
+
+
+Jwt - Access Tokena and Refresh Token
+
+
+
+![1675440332954](https://user-images.githubusercontent.com/69970001/224452021-fa224e15-c622-43a7-9e49-3f3fb2882f4b.jpeg)
+
+
+
+
+------------
+
+
+Handling Realtime Notificaitons
+
+![1676053250023](https://user-images.githubusercontent.com/69970001/224452037-135d4218-ae84-47bf-b5c8-fcc5ef8b3a4f.jpeg)
+
+![1676053250504](https://user-images.githubusercontent.com/69970001/224452038-56ad68ff-64aa-4806-9028-100818ae6216.jpeg)
+
+
+
+
