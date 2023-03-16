@@ -134,3 +134,11 @@ paths:mongoDBResponse.map(item=>({params:{id:item?.id?.toString()})
 
 
 Chanllenges with MongoDB and NextJS - https://github.com/vercel/next.js/discussions/12229
+
+
+
+
+
+<img width="599" alt="Screenshot 2023-03-12 at 1 25 04 PM" src="https://user-images.githubusercontent.com/69970001/225757738-66f54ca4-9690-41bb-a447-ffab29f76b04.png">
+
+
