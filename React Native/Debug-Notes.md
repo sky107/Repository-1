@@ -337,4 +337,4 @@ To Reach to specific point on ScrollView
                   
                   
                   
-                  
+                  https://www.newline.co/@kchan/building-macos-applications-with-react-native-for-macos--7fd38809
